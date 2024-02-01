@@ -15,13 +15,6 @@ public class TC1_EndToEnd extends AndroidBaseTest{
 	public void loginScreenTest(HashMap<String, String> input) {
 		Page_LoginScreen signin = new Page_LoginScreen(driver);
 		signin.login(input.get("userName"),input.get("password"));
-		//
-		//
-		
-		//
-		
-		
-		
 	}
 	
 	@DataProvider
