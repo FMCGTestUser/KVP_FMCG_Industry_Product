@@ -4,9 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-
 import com.kvp.project.reusableutils.Util_AndroidActions;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -27,9 +25,6 @@ public class Page_CouponsScreen extends Util_AndroidActions {
     private List<WebElement> couponCode;
     
 	public void selectCoupon() {
-		System.out.println(navigateBack.isDisplayed()+"navigate back");
-		System.out.println(couponCode.get(2).isDisplayed()+"couponCode");
 		couponCode.get(2).click();
 	}
-	
 }

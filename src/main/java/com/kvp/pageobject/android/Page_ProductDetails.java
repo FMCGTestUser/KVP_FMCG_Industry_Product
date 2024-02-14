@@ -4,9 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-
 import com.kvp.project.reusableutils.Util_AndroidActions;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
@@ -47,10 +45,12 @@ public class Page_ProductDetails extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View/android.widget.Button")// navigate back and add to cart button 
 	private List<WebElement> buttons;
     
-	public void productDetails() {
+	public void selectDetails() throws InterruptedException {
 		productImages.get(0).click();
+		Thread.sleep(1000);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		productImages.get(1).click();
+		Thread.sleep(1000);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		variants.click();
 		selectVariant.click();
@@ -60,6 +60,10 @@ public class Page_ProductDetails extends Util_AndroidActions {
 		increaseQty.click();
 		reduceQty.click();
 		buttons.get(1).click();
+	}
+	
+	public void navigateBack() {
+		buttons.get(0).click();
 	}
    
 }

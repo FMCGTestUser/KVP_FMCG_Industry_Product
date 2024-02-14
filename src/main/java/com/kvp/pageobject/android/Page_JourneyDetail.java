@@ -41,16 +41,32 @@ public class Page_JourneyDetail extends Util_AndroidActions{
 		if(mapConfirmation.isDisplayed()) {
 			mapConfirmation.click();
 		}
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		googleMap.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		doubleClick(googleMap);
 		playIcon.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		pauseIcon.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		restartIcon.click();
 		buttons.get(2).click();
+	}
+	
+	public void checkOut() throws InterruptedException {
+		if(mapConfirmation.isDisplayed()) {
+			mapConfirmation.click();
+		}
+		Thread.sleep(2000);
+		googleMap.click();
+		Thread.sleep(2000);
+		doubleClick(googleMap);
+		playIcon.click();
+		Thread.sleep(2000);
+		pauseIcon.click();
+		Thread.sleep(2000);
+		restartIcon.click();
+		buttons.get(1).click();
 	}
 	
 }

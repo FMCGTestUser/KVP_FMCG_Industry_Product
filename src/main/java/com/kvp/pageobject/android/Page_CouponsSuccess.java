@@ -23,8 +23,6 @@ public class Page_CouponsSuccess extends Util_AndroidActions {
 	    private WebElement doneButton;
 	    
 		public void applyCoupon() {
-			System.out.println(navigateBack.isDisplayed()+"navigate back");
-			System.out.println(doneButton.isDisplayed()+"doneButton");
 			doneButton.click();
 		}
 }

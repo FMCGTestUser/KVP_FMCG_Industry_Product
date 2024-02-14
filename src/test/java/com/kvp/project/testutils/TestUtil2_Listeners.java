@@ -8,12 +8,12 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.kvp.project.reusableutils.Util_AppiumConfig;
-import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
 public class TestUtil2_Listeners extends Util_AppiumConfig implements ITestListener{
 	ExtentTest test;
 	ExtentReports extent = TestUtil1_ExtentReports.getReporterObject();
-	AppiumDriver driver;
+	AndroidDriver driver;
 	
 
 	@Override
@@ -34,7 +34,7 @@ public class TestUtil2_Listeners extends Util_AppiumConfig implements ITestListe
 		//screenshot code
 		test.fail(result.getThrowable());
 		try {
-				driver = (AppiumDriver) result.getTestClass().getRealClass().getField("driver")
+				driver = (AndroidDriver) result.getTestClass().getRealClass().getField("driver")
 						.get(result.getInstance());	
 			} catch (Exception e1) {
 			e1.printStackTrace();

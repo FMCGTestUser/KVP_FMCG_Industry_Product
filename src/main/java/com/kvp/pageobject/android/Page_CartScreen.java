@@ -36,11 +36,14 @@ public class Page_CartScreen extends Util_AndroidActions {
     private WebElement applyCoupon;
     
     
-	public void addCart() throws InterruptedException {
-		increaseQty.click();
+	public void changeCart() throws InterruptedException {
 		increaseQty.click();
 		Thread.sleep(3000);
 		reduceQty.click();
 		buttons.get(1).click();
+	}
+	
+	public void navigateBack() {
+		buttons.get(0).click();
 	}
 }

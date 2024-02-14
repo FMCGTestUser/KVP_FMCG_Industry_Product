@@ -27,11 +27,13 @@ public class Page_LoginScreen extends Util_AndroidActions {
 	private WebElement signInButton;
 	
 	
-	public void login(String name,String password) {	
+	public void login(String name,String password) throws InterruptedException {	
 		userName.click();
 		userName.sendKeys(name);
+		Thread.sleep(1000);
 		userPassword.click();
 		userPassword.sendKeys(password);
+		Thread.sleep(1000);
 		signInButton.click();
 	}
 	//for temp test case

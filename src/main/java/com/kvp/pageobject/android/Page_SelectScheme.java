@@ -25,7 +25,6 @@ public class Page_SelectScheme extends Util_AndroidActions {
     private List<WebElement> selectSchemes;
 	   
 	public void selectScheme() {
-		System.out.println(selectSchemes.get(1).isDisplayed()+"selectSchemes");
 		selectSchemes.get(1).click();
 	}
 }

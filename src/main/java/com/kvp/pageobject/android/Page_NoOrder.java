@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.kvp.project.reusableutils.Util_AndroidActions;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
@@ -32,10 +34,10 @@ public class Page_NoOrder extends Util_AndroidActions {
     private WebElement submitButton;
 
 	public void orderReason() {
-		System.out.println(navigateBack.isDisplayed()+"navigate back");
-		System.out.println(optionCheck.isDisplayed()+"optionCheck");
-		System.out.println(reasonEntry.isDisplayed()+"reasonEntry");
-		System.out.println(submitButton.isDisplayed()+"submitButton");
+		optionCheck.click();
+		reasonEntry.click();
+		reasonEntry.sendKeys("No orders were accepted at the visited customer place due to unavailability of desired products/services");
+		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		submitButton.click();
 	}
 }
