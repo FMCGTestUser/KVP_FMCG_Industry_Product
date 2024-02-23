@@ -42,7 +42,13 @@ public class Page_ProductDetails extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View/android.widget.ScrollView/android.widget.Button[3]")
     private WebElement reduceQty;
     
-    @AndroidFindBy(xpath = "//android.view.View/android.widget.Button")// navigate back and add to cart button 
+    @AndroidFindBy(xpath = "//android.view.View/android.widget.ScrollView/android.widget.Button[5]")
+    private WebElement productUOM;
+    
+    @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"A\"]")
+    private WebElement selectUOM;
+    
+    @AndroidFindBy(xpath = "//android.view.View/android.widget.Button")// 4 button navigate back 1st and add to cart button 4th
 	private List<WebElement> buttons;
     
 	public void selectDetails() throws InterruptedException {
@@ -59,7 +65,11 @@ public class Page_ProductDetails extends Util_AndroidActions {
 		increaseQty.click();
 		increaseQty.click();
 		reduceQty.click();
-		buttons.get(1).click();
+		scrollActionsRandom("down");
+		Thread.sleep(1000);
+		productUOM.click();
+		selectUOM.click();
+		buttons.get(3).click();
 	}
 	
 	public void navigateBack() {

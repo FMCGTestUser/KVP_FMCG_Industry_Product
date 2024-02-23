@@ -28,10 +28,7 @@ public class Page_CartScreen extends Util_AndroidActions {
 	 
     @AndroidFindBy(xpath = "//android.view.View[2]/android.view.View/android.widget.ImageView[1]/android.view.View[1]")
     private WebElement reduceQty;
-    	
-    @AndroidFindBy(xpath = "//android.view.View[2]/android.view.View/android.widget.ImageView[1]/android.view.View[3]")
-    private WebElement selectScheme;
-    
+    	   
     @AndroidFindBy(xpath = "//android.view.View/android.widget.ImageView")
     private WebElement applyCoupon;
     

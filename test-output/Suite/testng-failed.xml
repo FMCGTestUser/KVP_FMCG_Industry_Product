@@ -5,19 +5,14 @@
     <listener class-name="com.kvp.project.testutils.TestUtil2_Listeners"/>
   </listeners>
   <test thread-count="5" name="End to end Framework Test(failed)">
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.kvp.testcases.Android.TC1_EndToEnd">
+      <class name="com.kvp.testcases.Android.TC4_SchemeSelection">
         <methods>
-          <include name="loginScreenTest"/>
+          <include name="selectScheme"/>
           <include name="configureAppium"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kvp.testcases.Android.TC1_EndToEnd -->
+      </class> <!-- com.kvp.testcases.Android.TC4_SchemeSelection -->
     </classes>
   </test> <!-- End to end Framework Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

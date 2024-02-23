@@ -36,8 +36,7 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View/android.view.View[6]")
     private List<WebElement> startAction;
     
-    @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.Button")
-	private WebElement drawerMenu;
+
     
     public int userDateSplit(int index) throws IOException { //DD/MM/YYYY splitter will save under index 0,1 and 2 
     	Util_PropertyConfig prop = new Util_PropertyConfig();

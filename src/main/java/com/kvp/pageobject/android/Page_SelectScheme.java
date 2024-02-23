@@ -21,10 +21,15 @@ public class Page_SelectScheme extends Util_AndroidActions {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-	@AndroidFindBy(xpath = "//android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.CheckBox")
+	@AndroidFindBy(xpath = "//android.view.View/android.widget.ImageView")
+    private List<WebElement> applySchemes;
+	
+	@AndroidFindBy(xpath = "//android.view.View/android.widget.CheckBox")
     private List<WebElement> selectSchemes;
 	   
-	public void selectScheme() {
+	public void selectScheme() throws InterruptedException {
+		applySchemes.get(2).click();
+		Thread.sleep(1000);
 		selectSchemes.get(1).click();
 	}
 }

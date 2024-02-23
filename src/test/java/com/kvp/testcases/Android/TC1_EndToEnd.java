@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import org.testng.annotations.Test;
 import com.kvp.pageobject.android.Page_CartScreen;
+import com.kvp.pageobject.android.Page_CheckInDetail;
 import com.kvp.pageobject.android.Page_CouponsScreen;
 import com.kvp.pageobject.android.Page_CouponsSuccess;
 import com.kvp.pageobject.android.Page_JourneyCalendar;
-import com.kvp.pageobject.android.Page_JourneyDetail;
 import com.kvp.pageobject.android.Page_LoginScreen;
 import com.kvp.pageobject.android.Page_NoOrder;
 import com.kvp.pageobject.android.Page_ProductDetails;
@@ -20,15 +20,15 @@ public class TC1_EndToEnd extends AndroidBaseTest{
 		
 	@Test
 	public void endToEnd() throws IOException, InterruptedException  {
-		getLoginData();	
+//		getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);
 		widget.startJourney();
-		Page_JourneyDetail detail = new Page_JourneyDetail(driver);
+		Page_CheckInDetail detail = new Page_CheckInDetail(driver);
 		detail.clickOrder();
 		Page_ProductList list =new Page_ProductList(driver);
 		Page_ProductDetails details =new Page_ProductDetails(driver);
 		Page_CartScreen cart = new Page_CartScreen(driver);
-		for(int i=0;i<getIndexData().get(getIndexData().size()-1).size();i++) { //index starts from zero Size from O1 take case while looping
+		for(int i=0;i<getIndexData().get(getIndexData().size()-2).size();i++) { //index starts from zero Size from O1 take case while looping
 			list.selectProduct(i);
 			details.selectDetails();
 			Thread.sleep(2000);

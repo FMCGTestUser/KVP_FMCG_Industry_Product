@@ -12,8 +12,12 @@
       "password": "AB01@#%"
     },
     {
-      "productName1": "FP642",
-      "productName2": "FP642"
+      "productName1": "Product Name",
+      "productName2": "Product Name"
+    },
+    {
+      "accountName1": "Natural Freshness",
+      "accountName2": "Natural Freshness"
     }
 ]
 

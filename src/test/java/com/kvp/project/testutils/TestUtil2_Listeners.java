@@ -39,10 +39,13 @@ public class TestUtil2_Listeners extends Util_AppiumConfig implements ITestListe
 			} catch (Exception e1) {
 			e1.printStackTrace();
 			} 
-		
+		  
 		try {
-			test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(), driver), result.getMethod().getMethodName());
-			} catch (IOException e) {
+			if (driver != null) {
+				test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(), driver), result.getMethod().getMethodName());
+			}else {
+		           System.out.println("Driver is not initialized. Cannot capture screenshot.");
+		        }} catch (IOException e) {
 			e.printStackTrace();
 			}
 	}
@@ -69,7 +72,5 @@ public class TestUtil2_Listeners extends Util_AppiumConfig implements ITestListe
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
 		extent.flush();
-	}
-//
-	
+	}	
 }

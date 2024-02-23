@@ -38,7 +38,7 @@ public class Util_AndroidActions extends Util_AppiumConfig{
 			    "left", 100, "top", 100, "width", 200, "height", 200,
 			    "direction", direction,//up, down,left, right
 			    "percent", 3.0
-			)); 
+			));
 	}
 	
 	public void scrollActionsFix(String text) {

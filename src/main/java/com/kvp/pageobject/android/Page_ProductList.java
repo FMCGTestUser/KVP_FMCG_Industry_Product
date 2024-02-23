@@ -48,7 +48,7 @@ public class Page_ProductList extends Util_AndroidActions {
 	}
 	
 	public void selectProduct(int index) throws IOException, InterruptedException {	
-		searchProducts(getIndexData().get(getIndexData().size()-1), index);
+		searchProducts(getIndexData().get(getIndexData().size()-2), index); //-2 for json -1 will be accounts
 	}
 	
 	public void viewCart() {
