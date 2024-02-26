@@ -1,7 +1,5 @@
 package com.kvp.project.reusableutils;
 
-
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -10,16 +8,15 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 public class Util_Log4jConfig {
-
-	File myfile=new File("Project_Configurations/log4j.properties");
 	
 	public Logger testLogs() throws IOException {
-		FileInputStream file=new FileInputStream(myfile);
+		FileInputStream configFile=new FileInputStream("Project_Configurations/log4j.properties");
 		Properties prop = new Properties();
-		prop.load(file);
-		Logger log = Logger.getLogger(Util_Log4jConfig.class);
+		prop.load(configFile);
+		configFile.close();
+		Logger log = Logger.getLogger("devpinoyLogger");
 		BasicConfigurator.configure();
-		PropertyConfigurator.configure(file);
+		PropertyConfigurator.configure(prop);
 		return log;	
 	}
 }

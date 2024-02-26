@@ -9,12 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">End to end Framework Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">257,381</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">No order Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,527</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">302,908</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">End to end Framework Test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">235,354</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">No order Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">42,840</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">278,194</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">End to end Framework Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.kvp.testcases.Android.TC4_SchemeSelection</td><td><a href="#m0">selectScheme</a></td><td rowspan="1">1708687221194</td><td rowspan="1">40495</td></tr><tr><th colspan="4">End to end Framework Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC1_EndToEnd</td><td><a href="#m1">endToEnd</a></td><td rowspan="1">1708687071147</td><td rowspan="1">89599</td></tr><tr class="passedodd"><td rowspan="1">com.kvp.testcases.Android.TC3_NoOrder</td><td><a href="#m2">noOrder</a></td><td rowspan="1">1708687173674</td><td rowspan="1">34974</td></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC6_AccountsFlow</td><td><a href="#m3">selectScheme</a></td><td rowspan="1">1708687275567</td><td rowspan="1">34554</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">No order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC3_NoOrder</td><td><a href="#m4">noOrder</a></td><td rowspan="1">1708687322647</td><td rowspan="1">32800</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">End to end Framework Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.kvp.testcases.Android.TC4_SchemeSelection</td><td><a href="#m0">selectScheme</a></td><td rowspan="1">1708946580701</td><td rowspan="1">41845</td></tr><tr><th colspan="4">End to end Framework Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.kvp.testcases.Android.Testtempresult</td><td><a href="#m1">methdfour</a></td><td rowspan="1">1708946663441</td><td rowspan="1">2</td></tr><tr><th colspan="4">End to end Framework Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC1_EndToEnd</td><td><a href="#m2">endToEnd</a></td><td rowspan="1">1708946441404</td><td rowspan="1">87901</td></tr><tr class="passedodd"><td rowspan="1">com.kvp.testcases.Android.TC3_NoOrder</td><td><a href="#m3">noOrder</a></td><td rowspan="1">1708946537852</td><td rowspan="1">34851</td></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC6_AccountsFlow</td><td><a href="#m4">selectScheme</a></td><td rowspan="1">1708946631190</td><td rowspan="1">31851</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">No order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC3_NoOrder</td><td><a href="#m5">noOrder</a></td><td rowspan="1">1708946671319</td><td rowspan="1">35004</td></tr></tbody>
 </table>
 <h2>End to end Framework Test</h2><h3 id="m0">com.kvp.testcases.Android.TC4_SchemeSelection#selectScheme</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
@@ -25,14 +25,18 @@
 	at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
 	at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.call(InterceptorOfAListOfElements.java:47)
 	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
-	at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$4prWBQmf.get(Unknown Source)
+	at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$rMHfu0HO.get(Unknown Source)
 	at com.kvp.pageobject.android.Page_SelectScheme.selectScheme(Page_SelectScheme.java:33)
 	at com.kvp.testcases.Android.TC4_SchemeSelection.selectScheme(TC4_SchemeSelection.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.kvp.testcases.Android.TC1_EndToEnd#endToEnd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.kvp.testcases.Android.TC3_NoOrder#noOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.kvp.testcases.Android.TC6_AccountsFlow#selectScheme</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>No order Test</h2><h3 id="m4">com.kvp.testcases.Android.TC3_NoOrder#noOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.kvp.testcases.Android.Testtempresult#methdfour</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: this execution skipped
+	at com.kvp.testcases.Android.Testtempresult.methdfour(Testtempresult.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.kvp.testcases.Android.TC1_EndToEnd#endToEnd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.kvp.testcases.Android.TC3_NoOrder#noOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.kvp.testcases.Android.TC6_AccountsFlow#selectScheme</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>No order Test</h2><h3 id="m5">com.kvp.testcases.Android.TC3_NoOrder#noOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

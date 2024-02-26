@@ -7,10 +7,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
 import com.kvp.pageobject.android.Page_LoginScreen;
 import com.kvp.project.reusableutils.Util_AppiumConfig;
-import com.kvp.project.reusableutils.Util_Log4jConfig;
 import com.kvp.project.reusableutils.Util_PropertyConfig;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -37,8 +35,7 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 		URL appiumServerURL = new URL(prop.propertyFetch("URL"));
 		driver = new AndroidDriver (appiumServerURL, capabilities);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS)	;
-    	Util_Log4jConfig log=new Util_Log4jConfig();
-		log.testLogs().debug("Appium server initialization completed");
+		updateLog().debug("Appium server initialization completed");
     
 		}
 		catch (Exception e) {
@@ -68,9 +65,10 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 	}
 	
 	@AfterClass(alwaysRun=true) //independent of any tags 
-	public void tearDown()
+	public void tearDown() throws IOException
 	{
 		if(driver != null) {driver.quit();}
 		if(service!=null) {service.stop();}     
+		updateLog().debug("Appium server termination completed");
 	}
 }

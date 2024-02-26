@@ -6,6 +6,11 @@
   </listeners>
   <test thread-count="5" name="End to end Framework Test(failed)">
     <classes>
+      <class name="com.kvp.testcases.Android.Testtempresult">
+        <methods>
+          <include name="methdfour"/>
+        </methods>
+      </class> <!-- com.kvp.testcases.Android.Testtempresult -->
       <class name="com.kvp.testcases.Android.TC4_SchemeSelection">
         <methods>
           <include name="selectScheme"/>

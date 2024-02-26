@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -16,6 +17,12 @@ public class Util_AppiumConfig {
 	
 	public AppiumDriverLocalService service;
 	public AndroidDriver driver;
+	
+	public Logger updateLog() throws IOException {
+		Util_Log4jConfig util = new Util_Log4jConfig();
+		Logger logger = util.testLogs();
+		return logger;
+	}
 	
 	public AppiumDriverLocalService startAppiumServer(String ipAddress,int port,String appiumJsFile) throws IOException{	
 			service =new AppiumServiceBuilder().withAppiumJS(new File(appiumJsFile)).withIPAddress(ipAddress).usingPort(port).build();

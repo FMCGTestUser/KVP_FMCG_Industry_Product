@@ -12,6 +12,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 
 
+@SuppressWarnings("deprecation")
 public class Util_AndroidActions extends Util_AppiumConfig{
 	AndroidDriver driver;
 	public Util_AndroidActions(AndroidDriver driver)

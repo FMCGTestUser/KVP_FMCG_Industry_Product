@@ -2,6 +2,10 @@ package com.kvp.testcases.Android;
 
 import java.time.Month;
 
+import org.testng.Assert;
+import org.testng.SkipException;
+import org.testng.annotations.Test;
+
 public class Testtempresult {
 
 	public static void main(String[] args) {
@@ -18,8 +22,11 @@ public class Testtempresult {
     	System.out.println(monthName);
      	System.out.println(monthNumeric);
      	System.out.println(monthNumber);
-
-    	
+     		
 	}
-
+	@Test
+	public void methdfour() {
+	 throw new SkipException("this execution skipped");
+			
+	}
 }
