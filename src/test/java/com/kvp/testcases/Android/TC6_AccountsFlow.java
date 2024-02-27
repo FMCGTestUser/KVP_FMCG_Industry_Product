@@ -10,8 +10,8 @@ import com.kvp.project.testutils.AndroidBaseTest;
 public class TC6_AccountsFlow extends AndroidBaseTest{
 	
 	
-	@Test
-	public void selectScheme() throws IOException, InterruptedException  {
+	@Test(groups = {"Regression","All_Tests"})
+	public void accountsFlow() throws IOException, InterruptedException  {
 //		getLoginData();	
 		Page_DrawerMenu drawer = new Page_DrawerMenu(driver);
 		drawer.viewAccount();

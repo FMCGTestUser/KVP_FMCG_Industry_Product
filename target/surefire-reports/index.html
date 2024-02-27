@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -55,12 +55,12 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,  1 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,10 +103,29 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.testcase2" class="method navigator-link" hash-for-method="loginScreenTest">loginScreenTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC6_AccountsFlow" class="method navigator-link" hash-for-method="accountsFlow">accountsFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC4_SchemeSelection" class="method navigator-link" hash-for-method="selectScheme">selectScheme</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.Testtempresult" class="method navigator-link" hash-for-method="skipVerification">skipVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +136,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC1_EndToEnd" class="method navigator-link" hash-for-method="loginScreenTest({userName=prasad, password=12345})">loginScreenTest({userName=prasad, password=12345})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC1_EndToEnd" class="method navigator-link" hash-for-method="endToEnd">endToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC3_NoOrder" class="method navigator-link" hash-for-method="noOrder">noOrder</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -135,54 +159,110 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.kvp.testcases.Android.testcase2</span>
+              <span class="class-name">com.kvp.testcases.Android.TC6_AccountsFlow</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginScreenTest">
-                  </a> <!-- loginScreenTest -->
-                  <span class="method-name">loginScreenTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.view.View/android.widget.CheckBox[1]})
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
-	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
-	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$rhW7JKk4.isDisplayed(Unknown Source)
-	at com.kvp.pageobject.android.Page_NoOrder.orderReason(Page_NoOrder.java:36)
-	at com.kvp.testcases.Android.testcase2.loginScreenTest(testcase2.java:46)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@347123dc (tried for 1 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
-	... 35 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.view.View/android.widget.CheckBox[1]})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+                  <a name="accountsFlow">
+                  </a> <!-- accountsFlow -->
+                  <span class="method-name">accountsFlow</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: //android.widget.ImageView&apos; is not linked to the same object in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 37 more
-... Removed 29 stack frames
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ddd4f5ae-cf8b-49c1-b33d-f6fbd915917a, clickElement {id=00000000-0000-00db-0000-002000000003}]
+Capabilities {appium:app: Project_Resources/app-relea..., appium:appPackage: com.example.field_sales_app, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: Project_Resources/app-relea..., automationName: UiAutomator2, deviceName: Pixel 7 API 30, platformName: ANDROID, platformVersion: 11.0}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2264, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (ddd4f5ae-cf8b-49c1-b33d-f6fbd915917a)] -&gt; xpath: //android.widget.ImageView]
+Session ID: ddd4f5ae-cf8b-49c1-b33d-f6fbd915917a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:42)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:65)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$GmQOnQe3.click(Unknown Source)
+	at com.kvp.pageobject.android.Page_AccountList.searchAccounts(Page_AccountList.java:35)
+	at com.kvp.pageobject.android.Page_AccountList.selectAccount(Page_AccountList.java:48)
+	at com.kvp.testcases.Android.TC6_AccountsFlow.accountsFlow(TC6_AccountsFlow.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kvp.testcases.Android.TC4_SchemeSelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectScheme">
+                  </a> <!-- selectScheme -->
+                  <span class="method-name">selectScheme</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.call(InterceptorOfAListOfElements.java:47)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
+	at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$UbT6Aous.get(Unknown Source)
+	at com.kvp.pageobject.android.Page_SelectScheme.selectScheme(Page_SelectScheme.java:34)
+	at com.kvp.testcases.Android.TC4_SchemeSelection.selectScheme(TC4_SchemeSelection.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kvp.testcases.Android.Testtempresult</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="skipVerification">
+                  </a> <!-- skipVerification -->
+                  <span class="method-name">skipVerification</span>
+                  <div class="stack-trace">org.testng.SkipException: this execution skipped
+	at com.kvp.testcases.Android.Testtempresult.skipVerification(Testtempresult.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kvp.testcases.Android.TC3_NoOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="noOrder">
+                  </a> <!-- noOrder -->
+                  <span class="method-name">noOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -191,10 +271,9 @@ Driver info: driver.version: RemoteWebDriver
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginScreenTest({userName=prasad, password=12345})">
-                  </a> <!-- loginScreenTest({userName=prasad, password=12345}) -->
-                  <span class="method-name">loginScreenTest</span>
-                  <span class="parameters">({userName=prasad, password=12345})</span>
+                  <a name="endToEnd">
+                  </a> <!-- endToEnd -->
+                  <span class="method-name">endToEnd</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -215,13 +294,12 @@ Driver info: driver.version: RemoteWebDriver
   &lt;test thread-count=&quot;5&quot; name=&quot;End to end Framework Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.kvp.testcases.Android.TC1_EndToEnd&quot;/&gt;
+      &lt;class name=&quot;com.kvp.testcases.Android.TC3_NoOrder&quot;/&gt;
+      &lt;class name=&quot;com.kvp.testcases.Android.TC4_SchemeSelection&quot;/&gt;
+      &lt;class name=&quot;com.kvp.testcases.Android.TC6_AccountsFlow&quot;/&gt;
+      &lt;class name=&quot;com.kvp.testcases.Android.Testtempresult&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- End to end Framework Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Error Validations Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.kvp.testcases.Android.testcase2&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Error Validations Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,10 +311,7 @@ Driver info: driver.version: RemoteWebDriver
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">End to end Framework Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Error Validations Test (1 class)</span>
+                <span class="test-name">End to end Framework Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,10 +322,34 @@ Driver info: driver.version: RemoteWebDriver
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">Smoke</span>
+              <span class="test-group-name">All_Tests</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">loginScreenTest</span>
+                <span class="method-in-group-name">accountsFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">endToEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">noOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectScheme</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">accountsFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">endToEnd</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -270,20 +369,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginScreenTest')
-data.setCell(0, 2, 'com.kvp.testcases.Android.testcase2')
-data.setCell(0, 3, 88851);
+data.setCell(0, 1, 'endToEnd')
+data.setCell(0, 2, 'com.kvp.testcases.Android.TC1_EndToEnd')
+data.setCell(0, 3, 97766);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginScreenTest')
-data.setCell(1, 2, 'com.kvp.testcases.Android.TC1_EndToEnd')
-data.setCell(1, 3, 3608);
+data.setCell(1, 1, 'selectScheme')
+data.setCell(1, 2, 'com.kvp.testcases.Android.TC4_SchemeSelection')
+data.setCell(1, 3, 53722);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'noOrder')
+data.setCell(2, 2, 'com.kvp.testcases.Android.TC3_NoOrder')
+data.setCell(2, 3, 42338);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'accountsFlow')
+data.setCell(3, 2, 'com.kvp.testcases.Android.TC6_AccountsFlow')
+data.setCell(3, 3, 10708);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'skipVerification')
+data.setCell(4, 2, 'com.kvp.testcases.Android.Testtempresult')
+data.setCell(4, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -315,30 +426,69 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">loginScreenTest({userName=prasad, password=12345})</span>
-                <span class="method-start">14753 ms</span>
+                <span class="method-name">endToEnd</span>
+                <span class="method-start">16499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18367 ms</span>
+                <span class="method-start">114269 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.kvp.testcases.Android.testcase2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.kvp.testcases.Android.TC3_NoOrder</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">configureAppium</span>
-                <span class="method-start">19410 ms</span>
+                <span class="method-start">114815 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">noOrder</span>
+                <span class="method-start">126691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169030 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kvp.testcases.Android.TC4_SchemeSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configureAppium</span>
+                <span class="method-start">169974 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginScreenTest</span>
-                <span class="method-start">28425 ms</span>
+                <span class="method-name">selectScheme</span>
+                <span class="method-start">181647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">117669 ms</span>
+                <span class="method-start">236291 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kvp.testcases.Android.TC6_AccountsFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configureAppium</span>
+                <span class="method-start">236973 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">accountsFlow</span>
+                <span class="method-start">247868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">259100 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kvp.testcases.Android.Testtempresult</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">skipVerification</span>
+                <span class="method-start">259815 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

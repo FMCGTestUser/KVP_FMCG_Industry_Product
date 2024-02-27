@@ -13,7 +13,6 @@ import com.kvp.project.reusableutils.Util_PropertyConfig;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 
-
 public class AndroidBaseTest extends Util_AppiumConfig{
 
 	public AndroidDriver driver;
@@ -35,7 +34,7 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 		URL appiumServerURL = new URL(prop.propertyFetch("URL"));
 		driver = new AndroidDriver (appiumServerURL, capabilities);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS)	;
-		updateLog().debug("Appium server initialization completed");
+		updateLog().debug("-------------------Test Started-------------------");
     
 		}
 		catch (Exception e) {
@@ -58,7 +57,7 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 		loginSetup(getIndexData().get(0));
 	}
 
-	public void loginSetup(HashMap<String, String> input) throws InterruptedException  {
+	public void loginSetup(HashMap<String, String> input) throws InterruptedException, IOException  {
 		Page_LoginScreen signin = new Page_LoginScreen(driver);
 		signin.login(input.get("userName"),input.get("password"));
 		Thread.sleep(2000);
@@ -69,6 +68,6 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 	{
 		if(driver != null) {driver.quit();}
 		if(service!=null) {service.stop();}     
-		updateLog().debug("Appium server termination completed");
+		updateLog().debug("-------------------Test Ended-------------------");
 	}
 }

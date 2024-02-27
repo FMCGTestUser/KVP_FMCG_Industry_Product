@@ -1,5 +1,6 @@
 package com.kvp.pageobject.android;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
@@ -51,7 +52,7 @@ public class Page_ProductDetails extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View/android.widget.Button")// 4 button navigate back 1st and add to cart button 4th
 	private List<WebElement> buttons;
     
-	public void selectDetails() throws InterruptedException {
+	public void selectDetails() throws InterruptedException, IOException {
 		productImages.get(0).click();
 		Thread.sleep(1000);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
@@ -70,10 +71,10 @@ public class Page_ProductDetails extends Util_AndroidActions {
 		productUOM.click();
 		selectUOM.click();
 		buttons.get(3).click();
+		updateLog().debug("Required product selected and added to the cart");
 	}
 	
 	public void navigateBack() {
 		buttons.get(0).click();
-	}
-   
+	}  
 }

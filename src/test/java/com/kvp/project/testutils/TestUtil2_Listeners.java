@@ -15,11 +15,10 @@ public class TestUtil2_Listeners extends Util_AppiumConfig implements ITestListe
 	ExtentReports extent = TestUtil1_ExtentReports.getReporterObject();
 	AndroidDriver driver;
 	
-
 	@Override
 	public void onTestStart(ITestResult result) {
 		 test= extent.createTest(result.getMethod().getMethodName());
-		 test.info("<span style='color:green; font-weight:bold;'>Test execution started</span>");
+		 test.info("<span style='color:blue;'>Test execution started</span>");
 	}
 
 	@Override
@@ -50,20 +49,17 @@ public class TestUtil2_Listeners extends Util_AppiumConfig implements ITestListe
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		test.log(Status.SKIP,"<span style='color:blue; font-weight:bold;'>This test is skipped</span>");
-		
+		test.log(Status.SKIP,"<span style='color:orange; font-weight:bold;'>This test is skipped</span>");		
 	}
 
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 	}
 
 	@Override
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 	}
 
 	@Override

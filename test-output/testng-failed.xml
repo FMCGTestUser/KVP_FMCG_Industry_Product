@@ -8,7 +8,7 @@
     <classes>
       <class name="com.kvp.testcases.Android.Testtempresult">
         <methods>
-          <include name="methdfour"/>
+          <include name="skipVerification"/>
         </methods>
       </class> <!-- com.kvp.testcases.Android.Testtempresult -->
       <class name="com.kvp.testcases.Android.TC4_SchemeSelection">

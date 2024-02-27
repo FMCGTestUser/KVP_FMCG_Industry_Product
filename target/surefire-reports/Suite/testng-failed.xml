@@ -4,15 +4,27 @@
   <listeners>
     <listener class-name="com.kvp.project.testutils.TestUtil2_Listeners"/>
   </listeners>
-  <test thread-count="5" name="Error Validations Test(failed)" verbose="0">
+  <test thread-count="5" name="End to end Framework Test(failed)" verbose="0">
     <classes>
-      <class name="com.kvp.testcases.Android.testcase2">
+      <class name="com.kvp.testcases.Android.TC6_AccountsFlow">
         <methods>
-          <include name="loginScreenTest"/>
+          <include name="configureAppium"/>
+          <include name="tearDown"/>
+          <include name="accountsFlow"/>
+        </methods>
+      </class> <!-- com.kvp.testcases.Android.TC6_AccountsFlow -->
+      <class name="com.kvp.testcases.Android.TC4_SchemeSelection">
+        <methods>
+          <include name="selectScheme"/>
           <include name="configureAppium"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kvp.testcases.Android.testcase2 -->
+      </class> <!-- com.kvp.testcases.Android.TC4_SchemeSelection -->
+      <class name="com.kvp.testcases.Android.Testtempresult">
+        <methods>
+          <include name="skipVerification"/>
+        </methods>
+      </class> <!-- com.kvp.testcases.Android.Testtempresult -->
     </classes>
-  </test> <!-- Error Validations Test(failed) -->
+  </test> <!-- End to end Framework Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

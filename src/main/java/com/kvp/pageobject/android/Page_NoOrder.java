@@ -1,10 +1,9 @@
 package com.kvp.pageobject.android;
 
+import java.io.IOException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-
 import com.kvp.project.reusableutils.Util_AndroidActions;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
@@ -33,11 +32,12 @@ public class Page_NoOrder extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View/android.widget.Button")
     private WebElement submitButton;
 
-	public void orderReason() {
+	public void orderReason() throws IOException {
 		optionCheck.click();
 		reasonEntry.click();
 		reasonEntry.sendKeys("No orders were accepted at the visited customer place due to unavailability of desired products/services");
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		submitButton.click();
+		updateLog().debug("Reason updated for No order");
 	}
 }

@@ -1,5 +1,6 @@
 package com.kvp.pageobject.android;
 
+import java.io.IOException;
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -42,27 +43,30 @@ public class Page_AccountDetails extends Util_AndroidActions{
 	    @AndroidFindBy(xpath = "//android.widget.Button")//navigate back and edit account
 	    private List<WebElement> buttons;
 	    
-	    public void mapConfirmation() throws InterruptedException {
+	    public void mapConfirmation() throws InterruptedException, IOException {
 	    	if(mapConfirmation.isDisplayed()) {
 				mapConfirmation.click();
 				Thread.sleep(2000);
+				updateLog().debug("Google map pop up selected");
 			}
 	    }
 	    
-		public void editAccount() throws InterruptedException {
+		public void editAccount() throws InterruptedException, IOException {
 			mapConfirmation();
 			googleMap.click();
 			Thread.sleep(2000);
 			doubleClick(googleMap);
 			buttons.get(1).click();
 			Thread.sleep(2000);
-			}
+			updateLog().debug("Edit Account Details clicked");
+		}
 		
-		public void viewTabs() throws InterruptedException {
+		public void viewTabs() throws InterruptedException, IOException {
 			journeysTab.click();
 			checkInTab.click();
 			ordersTab.click();
 			filesTab.click();
+			updateLog().debug("Verified all the tabs");
 		}	
 		
 		public void navigateBack() {

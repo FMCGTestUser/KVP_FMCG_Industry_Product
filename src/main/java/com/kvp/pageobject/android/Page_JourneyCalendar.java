@@ -36,8 +36,6 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View/android.view.View[6]")
     private List<WebElement> startAction;
     
-
-    
     public int userDateSplit(int index) throws IOException { //DD/MM/YYYY splitter will save under index 0,1 and 2 
     	Util_PropertyConfig prop = new Util_PropertyConfig();
     	String splitDate[] = prop.propertyFetch("journyDate").split(",");
@@ -45,12 +43,13 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
 		return converToInt;	    	
     }
           
-    public String getMonthHeading() { //returns month name heading in app ex:February 2024
+    public String getMonthHeading() throws InterruptedException { //returns month name heading in app ex:February 2024
+    	Thread.sleep(2000);
     	String monthHeadingtext =monthHeading.get(0).getAttribute("content-desc");
 		return monthHeadingtext;  	
     }
 
-    public int getMonthNumber() {  //returns month in number ex: If month is February in calendar widget it return 2
+    public int getMonthNumber() throws InterruptedException {  //returns month in number ex: If month is February in calendar widget it return 2
     	String monthName = getMonthHeading().substring(0,getMonthHeading().length()-5);
         Month month = Month.valueOf(monthName.toUpperCase());
         String monthNumeric = String.format("%02d", month.getValue());
@@ -139,14 +138,14 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
 	        dateElement(index).click();
     	   	Thread.sleep(2000);  
     		
-    	 } 		   	   	
+    	 } 
+    	updateLog().debug("Selected the particular date provided by User");
    	}	
     
     public void startJourney() throws InterruptedException, IOException {
     	calenderAction();
     	startAction.get(1).click();
     	Thread.sleep(1000);
+    	updateLog().debug("Journey started for the provided calendar date");
     }  
-    
-
 }

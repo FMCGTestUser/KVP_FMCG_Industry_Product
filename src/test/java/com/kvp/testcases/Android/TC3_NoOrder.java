@@ -10,7 +10,7 @@ import com.kvp.project.testutils.AndroidBaseTest;
 
 public class TC3_NoOrder extends AndroidBaseTest{
 	
-	@Test
+	@Test(groups = {"All_Tests"})
 	public void noOrder() throws IOException, InterruptedException  {
 	//	getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);

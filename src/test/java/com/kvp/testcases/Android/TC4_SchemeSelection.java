@@ -10,13 +10,13 @@ import com.kvp.project.testutils.AndroidBaseTest;
 
 public class TC4_SchemeSelection extends AndroidBaseTest{
 	
-	@Test
+	@Test(groups = {"All_Tests"})
 	public void selectScheme() throws IOException, InterruptedException  {
 //		getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);
 		widget.startJourney();
 		Page_CheckInDetail detail = new Page_CheckInDetail(driver);
-		detail.clickOrder();
+		detail.checkIn();
 		Thread.sleep(1000); 
 		Page_ProductList list =new Page_ProductList(driver);
 		list.viewCart();

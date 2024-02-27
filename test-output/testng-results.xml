@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="1" skipped="1">
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-26T16:50:28 IST" name="Suite" finished-at="2024-02-26T16:55:06 IST" duration-ms="278737">
+  <suite started-at="2024-02-27T14:42:49 IST" name="Suite" finished-at="2024-02-27T14:47:36 IST" duration-ms="286810">
     <groups>
+      <group name="All_Tests">
+        <method signature="TC1_EndToEnd.endToEnd()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" name="endToEnd" class="com.kvp.testcases.Android.TC1_EndToEnd"/>
+        <method signature="TC3_NoOrder.noOrder()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" name="noOrder" class="com.kvp.testcases.Android.TC3_NoOrder"/>
+        <method signature="TC4_SchemeSelection.selectScheme()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" name="selectScheme" class="com.kvp.testcases.Android.TC4_SchemeSelection"/>
+        <method signature="TC6_AccountsFlow.accountsFlow()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" name="accountsFlow" class="com.kvp.testcases.Android.TC6_AccountsFlow"/>
+      </group> <!-- All_Tests -->
+      <group name="Regression">
+        <method signature="TC1_EndToEnd.endToEnd()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" name="endToEnd" class="com.kvp.testcases.Android.TC1_EndToEnd"/>
+        <method signature="TC6_AccountsFlow.accountsFlow()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" name="accountsFlow" class="com.kvp.testcases.Android.TC6_AccountsFlow"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-02-26T16:50:28 IST" name="End to end Framework Test" finished-at="2024-02-26T16:54:23 IST" duration-ms="235354">
+    <test started-at="2024-02-27T14:42:49 IST" name="End to end Framework Test" finished-at="2024-02-27T14:47:36 IST" duration-ms="286810">
       <class name="com.kvp.testcases.Android.TC1_EndToEnd">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" started-at="2024-02-26T16:50:28 IST" name="configureAppium" finished-at="2024-02-26T16:50:41 IST" duration-ms="13274" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" started-at="2024-02-27T14:42:49 IST" name="configureAppium" finished-at="2024-02-27T14:43:10 IST" duration-ms="20931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="endToEnd()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" started-at="2024-02-26T16:50:41 IST" name="endToEnd" finished-at="2024-02-26T16:52:09 IST" duration-ms="87901" status="PASS">
+        <test-method signature="endToEnd()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" started-at="2024-02-27T14:43:10 IST" name="endToEnd" finished-at="2024-02-27T14:44:49 IST" duration-ms="98346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEnd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" started-at="2024-02-26T16:52:09 IST" name="tearDown" finished-at="2024-02-26T16:52:09 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC1_EndToEnd@517566b]" started-at="2024-02-27T14:44:49 IST" name="tearDown" finished-at="2024-02-27T14:44:49 IST" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kvp.testcases.Android.TC1_EndToEnd -->
       <class name="com.kvp.testcases.Android.Testtempresult">
-        <test-method signature="methdfour()[pri:0, instance:com.kvp.testcases.Android.Testtempresult@5f0e9815]" started-at="2024-02-26T16:54:23 IST" name="methdfour" finished-at="2024-02-26T16:54:23 IST" duration-ms="2" status="SKIP">
+        <test-method signature="skipVerification()[pri:0, instance:com.kvp.testcases.Android.Testtempresult@5f0e9815]" started-at="2024-02-27T14:47:36 IST" name="skipVerification" finished-at="2024-02-27T14:47:36 IST" duration-ms="2" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[this execution skipped]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: this execution skipped
-at com.kvp.testcases.Android.Testtempresult.methdfour(Testtempresult.java:29)
+at com.kvp.testcases.Android.Testtempresult.skipVerification(Testtempresult.java:10)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -62,14 +72,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methdfour -->
+        </test-method> <!-- skipVerification -->
       </class> <!-- com.kvp.testcases.Android.Testtempresult -->
       <class name="com.kvp.testcases.Android.TC4_SchemeSelection">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" started-at="2024-02-26T16:52:53 IST" name="configureAppium" finished-at="2024-02-26T16:53:00 IST" duration-ms="7588" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" started-at="2024-02-27T14:45:43 IST" name="configureAppium" finished-at="2024-02-27T14:45:55 IST" duration-ms="11821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="selectScheme()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" started-at="2024-02-26T16:53:00 IST" name="selectScheme" finished-at="2024-02-26T16:53:42 IST" duration-ms="41845" status="FAIL">
+        <test-method signature="selectScheme()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" started-at="2024-02-27T14:45:55 IST" name="selectScheme" finished-at="2024-02-27T14:46:47 IST" duration-ms="52489" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 1 out of bounds for length 0]]>
@@ -87,8 +97,8 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
 at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.call(InterceptorOfAListOfElements.java:47)
 at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
-at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$rMHfu0HO.get(Unknown Source)
-at com.kvp.pageobject.android.Page_SelectScheme.selectScheme(Page_SelectScheme.java:33)
+at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$IK9dWQMj.get(Unknown Source)
+at com.kvp.pageobject.android.Page_SelectScheme.selectScheme(Page_SelectScheme.java:34)
 at com.kvp.testcases.Android.TC4_SchemeSelection.selectScheme(TC4_SchemeSelection.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -124,55 +134,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectScheme -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" started-at="2024-02-26T16:53:43 IST" name="tearDown" finished-at="2024-02-26T16:53:43 IST" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC4_SchemeSelection@50468873]" started-at="2024-02-27T14:46:48 IST" name="tearDown" finished-at="2024-02-27T14:46:49 IST" duration-ms="998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kvp.testcases.Android.TC4_SchemeSelection -->
       <class name="com.kvp.testcases.Android.TC3_NoOrder">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" started-at="2024-02-26T16:52:09 IST" name="configureAppium" finished-at="2024-02-26T16:52:17 IST" duration-ms="8115" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" started-at="2024-02-27T14:44:49 IST" name="configureAppium" finished-at="2024-02-27T14:45:01 IST" duration-ms="12194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="noOrder()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" started-at="2024-02-26T16:52:17 IST" name="noOrder" finished-at="2024-02-26T16:52:52 IST" duration-ms="34851" status="PASS">
+        <test-method signature="noOrder()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" started-at="2024-02-27T14:45:01 IST" name="noOrder" finished-at="2024-02-27T14:45:43 IST" duration-ms="41159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" started-at="2024-02-26T16:52:52 IST" name="tearDown" finished-at="2024-02-26T16:52:53 IST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@45fd9a4d]" started-at="2024-02-27T14:45:43 IST" name="tearDown" finished-at="2024-02-27T14:45:43 IST" duration-ms="582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kvp.testcases.Android.TC3_NoOrder -->
       <class name="com.kvp.testcases.Android.TC6_AccountsFlow">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" started-at="2024-02-26T16:53:43 IST" name="configureAppium" finished-at="2024-02-26T16:53:51 IST" duration-ms="7395" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" started-at="2024-02-27T14:46:49 IST" name="configureAppium" finished-at="2024-02-27T14:47:01 IST" duration-ms="11786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="selectScheme()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" started-at="2024-02-26T16:53:51 IST" name="selectScheme" finished-at="2024-02-26T16:54:23 IST" duration-ms="31851" status="PASS">
+        <test-method signature="accountsFlow()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" started-at="2024-02-27T14:47:01 IST" name="accountsFlow" finished-at="2024-02-27T14:47:35 IST" duration-ms="34228" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectScheme -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" started-at="2024-02-26T16:54:23 IST" name="tearDown" finished-at="2024-02-26T16:54:23 IST" duration-ms="398" status="PASS">
+        </test-method> <!-- accountsFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC6_AccountsFlow@146587a2]" started-at="2024-02-27T14:47:35 IST" name="tearDown" finished-at="2024-02-27T14:47:36 IST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.kvp.testcases.Android.TC6_AccountsFlow -->
     </test> <!-- End to end Framework Test -->
-    <test started-at="2024-02-26T16:54:23 IST" name="No order Test" finished-at="2024-02-26T16:55:06 IST" duration-ms="42840">
-      <class name="com.kvp.testcases.Android.TC3_NoOrder">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@63a270c9]" started-at="2024-02-26T16:54:23 IST" name="configureAppium" finished-at="2024-02-26T16:54:31 IST" duration-ms="7330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="noOrder()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@63a270c9]" started-at="2024-02-26T16:54:31 IST" name="noOrder" finished-at="2024-02-26T16:55:06 IST" duration-ms="35004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- noOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kvp.testcases.Android.TC3_NoOrder@63a270c9]" started-at="2024-02-26T16:55:06 IST" name="tearDown" finished-at="2024-02-26T16:55:06 IST" duration-ms="504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kvp.testcases.Android.TC3_NoOrder -->
-    </test> <!-- No order Test -->
   </suite> <!-- Suite -->
 </testng-results>

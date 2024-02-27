@@ -34,7 +34,7 @@ public class Page_ProductList extends Util_AndroidActions {
     private List<WebElement> cart;
     
 
-	public void searchProducts(HashMap<String, String> input, int index) throws InterruptedException {	
+	public void searchProducts(HashMap<String, String> input, int index) throws InterruptedException, IOException {	
 			int prodNum=index+1;							//name starts from 1 but index starts from zero.
 			searchProduct.get(0).click();
 			searchProduct.get(0).clear();
@@ -45,13 +45,15 @@ public class Page_ProductList extends Util_AndroidActions {
 			}else {
 			org.testng.Assert.fail("Entered product not in search list test is failed.");
 			}
+			updateLog().debug("User provided product is searched and selected");
 	}
 	
 	public void selectProduct(int index) throws IOException, InterruptedException {	
 		searchProducts(getIndexData().get(getIndexData().size()-2), index); //-2 for json -1 will be accounts
 	}
 	
-	public void viewCart() {
+	public void viewCart() throws IOException {
 		cart.get(1).click();
+		updateLog().debug("clicked on cart to view the cart items");
 	}
 }

@@ -1,5 +1,6 @@
 package com.kvp.pageobject.android;
 
+import java.io.IOException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import com.kvp.project.reusableutils.Util_AndroidActions;
@@ -26,8 +27,7 @@ public class Page_LoginScreen extends Util_AndroidActions {
 	@AndroidFindBy(xpath ="//android.widget.Button")
 	private WebElement signInButton;
 	
-	
-	public void login(String name,String password) throws InterruptedException {	
+	public void login(String name,String password) throws InterruptedException, IOException {	
 		userName.click();
 		userName.sendKeys(name);
 		Thread.sleep(1000);
@@ -35,9 +35,6 @@ public class Page_LoginScreen extends Util_AndroidActions {
 		userPassword.sendKeys(password);
 		Thread.sleep(1000);
 		signInButton.click();
-	}
-	//for temp test case
-	public void login() {	
-		signInButton.click();
+		updateLog().debug("User logged in Successfully");
 	}
 }

@@ -1,5 +1,6 @@
 package com.kvp.pageobject.android;
 
+import java.io.IOException;
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -45,7 +46,7 @@ public class Page_CheckInDetail extends Util_AndroidActions{
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.Button")//returns 3 element navigate back, cancel and check-in
 	private List<WebElement> buttons;
     
-	public void clickOrder() throws InterruptedException {
+	public void checkIn() throws InterruptedException, IOException {
 		if(mapConfirmation.isDisplayed()) {
 			mapConfirmation.click();
 		}
@@ -59,9 +60,10 @@ public class Page_CheckInDetail extends Util_AndroidActions{
 		Thread.sleep(2000);
 		restartIcon.click();
 		buttons.get(2).click();
+		updateLog().debug("Check-In done and navigated to Product list");
 	}
 	
-	public void checkOut() throws InterruptedException {
+	public void checkOut() throws InterruptedException, IOException {
 		if(mapConfirmation.isDisplayed()) {
 			mapConfirmation.click();
 		}
@@ -75,5 +77,6 @@ public class Page_CheckInDetail extends Util_AndroidActions{
 		Thread.sleep(2000);
 		restartIcon.click();
 		buttons.get(1).click();
+		updateLog().debug("Check-Out done and navigated to No Orders");
 	}	
 }

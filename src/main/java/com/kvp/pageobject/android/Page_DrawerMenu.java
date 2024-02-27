@@ -1,7 +1,7 @@
 package com.kvp.pageobject.android;
 
+import java.io.IOException;
 import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import com.kvp.project.reusableutils.Util_AndroidActions;
@@ -31,18 +31,21 @@ public class Page_DrawerMenu extends Util_AndroidActions {
     @AndroidFindBy(xpath ="//android.widget.ImageView[4]")
     private WebElement logout;
     
-    public void viewJourney() {
+    public void viewJourney() throws IOException {
     	drawerMenu.get(0).click();
     	journeys.click();
+    	updateLog().debug("Journey menu selected");
     }
     
-    public void viewAccount() {
+    public void viewAccount() throws IOException {
     	drawerMenu.get(0).click();
     	accounts.click();
+    	updateLog().debug("Accounts menu selected");
     }
     
-    public void logout() {
+    public void logout() throws IOException {
     	drawerMenu.get(0).click();
     	logout.click();
+    	updateLog().debug("User logged out successfuly");
     }
 }

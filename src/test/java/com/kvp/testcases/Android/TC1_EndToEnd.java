@@ -18,13 +18,13 @@ import com.kvp.project.testutils.AndroidBaseTest;
 
 public class TC1_EndToEnd extends AndroidBaseTest{
 		
-	@Test
+	@Test(groups = {"Regression","All_Tests"})
 	public void endToEnd() throws IOException, InterruptedException  {
 //		getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);
 		widget.startJourney();
 		Page_CheckInDetail detail = new Page_CheckInDetail(driver);
-		detail.clickOrder();
+		detail.checkIn();
 		Page_ProductList list =new Page_ProductList(driver);
 		Page_ProductDetails details =new Page_ProductDetails(driver);
 		Page_CartScreen cart = new Page_CartScreen(driver);
