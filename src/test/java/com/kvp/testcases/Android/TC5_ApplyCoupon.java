@@ -13,7 +13,7 @@ public class TC5_ApplyCoupon extends AndroidBaseTest{
 		
 	@Test(groups = {"All_Tests"})
 	public void applyCoupon() throws IOException, InterruptedException  {
-//		getLoginData();	
+		getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);
 		widget.startJourney();
 		Page_CheckInDetail detail = new Page_CheckInDetail(driver);

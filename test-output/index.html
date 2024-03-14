@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,  1 skipped,  3 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  1 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC4_SchemeSelection" class="method navigator-link" hash-for-method="selectScheme">selectScheme</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC8_EditAccounts" class="method navigator-link" hash-for-method="accountsFlow">accountsFlow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -136,12 +136,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC1_EndToEnd" class="method navigator-link" hash-for-method="endToEnd">endToEnd</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC3_NoOrder" class="method navigator-link" hash-for-method="noOrder">noOrder</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.kvp.testcases.Android.TC7_AddNewAccounts" class="method navigator-link" hash-for-method="addNewAccount">addNewAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -159,28 +154,49 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.kvp.testcases.Android.TC4_SchemeSelection</span>
+              <span class="class-name">com.kvp.testcases.Android.TC8_EditAccounts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="selectScheme">
-                  </a> <!-- selectScheme -->
-                  <span class="method-name">selectScheme</span>
-                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.call(InterceptorOfAListOfElements.java:47)
+                  <a name="accountsFlow">
+                  </a> <!-- accountsFlow -->
+                  <span class="method-name">accountsFlow</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@content-desc=&quot;Edit Account Details&quot;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
 	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
-	at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$IK9dWQMj.get(Unknown Source)
-	at com.kvp.pageobject.android.Page_SelectScheme.selectScheme(Page_SelectScheme.java:34)
-	at com.kvp.testcases.Android.TC4_SchemeSelection.selectScheme(TC4_SchemeSelection.java:25)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$2Hsg4dP6.click(Unknown Source)
+	at com.kvp.pageobject.android.Page_AccountDetails.editAccount(Page_AccountDetails.java:47)
+	at com.kvp.testcases.Android.TC8_EditAccounts.accountsFlow(TC8_EditAccounts.java:24)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4f0cdd0f (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@content-desc=&quot;Edit Account Details&quot;]})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 35 more
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -209,36 +225,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.kvp.testcases.Android.TC1_EndToEnd</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="endToEnd">
-                  </a> <!-- endToEnd -->
-                  <span class="method-name">endToEnd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.kvp.testcases.Android.TC3_NoOrder</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="noOrder">
-                  </a> <!-- noOrder -->
-                  <span class="method-name">noOrder</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.kvp.testcases.Android.TC6_AccountsFlow</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -247,6 +233,21 @@
                   <a name="accountsFlow">
                   </a> <!-- accountsFlow -->
                   <span class="method-name">accountsFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kvp.testcases.Android.TC7_AddNewAccounts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewAccount">
+                  </a> <!-- addNewAccount -->
+                  <span class="method-name">addNewAccount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -266,10 +267,9 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;End to end Framework Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.kvp.testcases.Android.TC1_EndToEnd&quot;/&gt;
-      &lt;class name=&quot;com.kvp.testcases.Android.TC3_NoOrder&quot;/&gt;
-      &lt;class name=&quot;com.kvp.testcases.Android.TC4_SchemeSelection&quot;/&gt;
       &lt;class name=&quot;com.kvp.testcases.Android.TC6_AccountsFlow&quot;/&gt;
+      &lt;class name=&quot;com.kvp.testcases.Android.TC7_AddNewAccounts&quot;/&gt;
+      &lt;class name=&quot;com.kvp.testcases.Android.TC8_EditAccounts&quot;/&gt;
       &lt;class name=&quot;com.kvp.testcases.Android.Testtempresult&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- End to end Framework Test --&gt;
@@ -284,7 +284,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">End to end Framework Test (5 classes)</span>
+                <span class="test-name">End to end Framework Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -302,15 +302,7 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">endToEnd</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">noOrder</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">selectScheme</span>
+                <span class="method-in-group-name">addNewAccount</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -319,10 +311,6 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">accountsFlow</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">endToEnd</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -342,32 +330,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'endToEnd')
-data.setCell(0, 2, 'com.kvp.testcases.Android.TC1_EndToEnd')
-data.setCell(0, 3, 98346);
+data.setCell(0, 1, 'addNewAccount')
+data.setCell(0, 2, 'com.kvp.testcases.Android.TC7_AddNewAccounts')
+data.setCell(0, 3, 66674);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectScheme')
-data.setCell(1, 2, 'com.kvp.testcases.Android.TC4_SchemeSelection')
-data.setCell(1, 3, 52489);
+data.setCell(1, 1, 'accountsFlow')
+data.setCell(1, 2, 'com.kvp.testcases.Android.TC6_AccountsFlow')
+data.setCell(1, 3, 43411);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'noOrder')
-data.setCell(2, 2, 'com.kvp.testcases.Android.TC3_NoOrder')
-data.setCell(2, 3, 41159);
+data.setCell(2, 1, 'accountsFlow')
+data.setCell(2, 2, 'com.kvp.testcases.Android.TC8_EditAccounts')
+data.setCell(2, 3, 25628);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'accountsFlow')
-data.setCell(3, 2, 'com.kvp.testcases.Android.TC6_AccountsFlow')
-data.setCell(3, 3, 34228);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'skipVerification')
-data.setCell(4, 2, 'com.kvp.testcases.Android.Testtempresult')
-data.setCell(4, 3, 2);
+data.setCell(3, 1, 'skipVerification')
+data.setCell(3, 2, 'com.kvp.testcases.Android.Testtempresult')
+data.setCell(3, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -393,72 +377,57 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.kvp.testcases.Android.TC1_EndToEnd</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.kvp.testcases.Android.TC6_AccountsFlow</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">configureAppium</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">endToEnd</span>
-                <span class="method-start">20943 ms</span>
+                <span class="method-name">accountsFlow</span>
+                <span class="method-start">20302 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">119296 ms</span>
+                <span class="method-start">63723 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.kvp.testcases.Android.TC3_NoOrder</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.kvp.testcases.Android.TC7_AddNewAccounts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">configureAppium</span>
-                <span class="method-start">119769 ms</span>
+                <span class="method-start">64686 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">noOrder</span>
-                <span class="method-start">131965 ms</span>
+                <span class="method-name">addNewAccount</span>
+                <span class="method-start">76920 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">173127 ms</span>
+                <span class="method-start">143596 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.kvp.testcases.Android.TC4_SchemeSelection</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.kvp.testcases.Android.TC8_EditAccounts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">configureAppium</span>
-                <span class="method-start">173710 ms</span>
+                <span class="method-start">144195 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">selectScheme</span>
-                <span class="method-start">185533 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">239039 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.kvp.testcases.Android.TC6_AccountsFlow</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">configureAppium</span>
-                <span class="method-start">240038 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <span class="method-name">accountsFlow</span>
-                <span class="method-start">251825 ms</span>
+                <span class="method-start">156407 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">286054 ms</span>
+                <span class="method-start">182669 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.kvp.testcases.Android.Testtempresult</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">skipVerification</span>
-                <span class="method-start">286770 ms</span>
+                <span class="method-start">183444 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -9,30 +9,50 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">End to end Framework Test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">286,810</td><td></td><td></td></tr>
+<tr><td><a href="#t0">End to end Framework Test</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">183,480</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">End to end Framework Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.kvp.testcases.Android.TC4_SchemeSelection</td><td><a href="#m0">selectScheme</a></td><td rowspan="1">1709025355435</td><td rowspan="1">52489</td></tr><tr><th colspan="4">End to end Framework Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.kvp.testcases.Android.Testtempresult</td><td><a href="#m1">skipVerification</a></td><td rowspan="1">1709025456672</td><td rowspan="1">2</td></tr><tr><th colspan="4">End to end Framework Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC1_EndToEnd</td><td><a href="#m2">endToEnd</a></td><td rowspan="1">1709025190845</td><td rowspan="1">98346</td></tr><tr class="passedodd"><td rowspan="1">com.kvp.testcases.Android.TC3_NoOrder</td><td><a href="#m3">noOrder</a></td><td rowspan="1">1709025301867</td><td rowspan="1">41159</td></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC6_AccountsFlow</td><td><a href="#m4">accountsFlow</a></td><td rowspan="1">1709025421727</td><td rowspan="1">34228</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">End to end Framework Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.kvp.testcases.Android.TC8_EditAccounts</td><td><a href="#m0">accountsFlow</a></td><td rowspan="1">1710410081967</td><td rowspan="1">25628</td></tr><tr><th colspan="4">End to end Framework Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.kvp.testcases.Android.Testtempresult</td><td><a href="#m1">skipVerification</a></td><td rowspan="1">1710410109004</td><td rowspan="1">1</td></tr><tr><th colspan="4">End to end Framework Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.kvp.testcases.Android.TC6_AccountsFlow</td><td><a href="#m2">accountsFlow</a></td><td rowspan="1">1710409945862</td><td rowspan="1">43411</td></tr><tr class="passedodd"><td rowspan="1">com.kvp.testcases.Android.TC7_AddNewAccounts</td><td><a href="#m3">addNewAccount</a></td><td rowspan="1">1710410002480</td><td rowspan="1">66674</td></tr></tbody>
 </table>
-<h2>End to end Framework Test</h2><h3 id="m0">com.kvp.testcases.Android.TC4_SchemeSelection#selectScheme</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.call(InterceptorOfAListOfElements.java:47)
+<h2>End to end Framework Test</h2><h3 id="m0">com.kvp.testcases.Android.TC8_EditAccounts#accountsFlow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@content-desc=&quot;Edit Account Details&quot;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
 	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:77)
-	at net.bytebuddy.renamed.java.util.ArrayList$ByteBuddy$IK9dWQMj.get(Unknown Source)
-	at com.kvp.pageobject.android.Page_SelectScheme.selectScheme(Page_SelectScheme.java:34)
-	at com.kvp.testcases.Android.TC4_SchemeSelection.selectScheme(TC4_SchemeSelection.java:25)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$2Hsg4dP6.click(Unknown Source)
+	at com.kvp.pageobject.android.Page_AccountDetails.editAccount(Page_AccountDetails.java:47)
+	at com.kvp.testcases.Android.TC8_EditAccounts.accountsFlow(TC8_EditAccounts.java:24)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4f0cdd0f (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@content-desc=&quot;Edit Account Details&quot;]})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 35 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.kvp.testcases.Android.Testtempresult#skipVerification</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: this execution skipped
 	at com.kvp.testcases.Android.Testtempresult.skipVerification(Testtempresult.java:10)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.kvp.testcases.Android.TC1_EndToEnd#endToEnd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.kvp.testcases.Android.TC3_NoOrder#noOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.kvp.testcases.Android.TC6_AccountsFlow#accountsFlow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.kvp.testcases.Android.TC6_AccountsFlow#accountsFlow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.kvp.testcases.Android.TC7_AddNewAccounts#addNewAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

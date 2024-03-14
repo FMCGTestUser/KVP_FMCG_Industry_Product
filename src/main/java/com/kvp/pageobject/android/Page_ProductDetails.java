@@ -66,7 +66,7 @@ public class Page_ProductDetails extends Util_AndroidActions {
 		increaseQty.click();
 		increaseQty.click();
 		reduceQty.click();
-		scrollActionsRandom("down");
+		scrollActionsRandom("down",3.0);
 		Thread.sleep(1000);
 		productUOM.click();
 		selectUOM.click();

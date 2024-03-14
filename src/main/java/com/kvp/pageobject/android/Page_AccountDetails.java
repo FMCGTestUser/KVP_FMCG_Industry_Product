@@ -19,9 +19,6 @@ public class Page_AccountDetails extends Util_AndroidActions{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-	    @AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1]")
-	    private WebElement mapConfirmation;
-    
 	    @AndroidFindBy(xpath = "//android.widget.HorizontalScrollView/android.view.View[1]")
 	    private WebElement detailsTab;
 	    
@@ -43,20 +40,11 @@ public class Page_AccountDetails extends Util_AndroidActions{
 	    @AndroidFindBy(xpath = "//android.widget.Button")//navigate back and edit account
 	    private List<WebElement> buttons;
 	    
-	    public void mapConfirmation() throws InterruptedException, IOException {
-	    	if(mapConfirmation.isDisplayed()) {
-				mapConfirmation.click();
-				Thread.sleep(2000);
-				updateLog().debug("Google map pop up selected");
-			}
-	    }
+	    @AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Edit Account Details\"]")
+	    private WebElement editAccount;
 	    
-		public void editAccount() throws InterruptedException, IOException {
-			mapConfirmation();
-			googleMap.click();
-			Thread.sleep(2000);
-			doubleClick(googleMap);
-			buttons.get(1).click();
+		public void editAccount() throws InterruptedException, IOException {	
+			editAccount.click();
 			Thread.sleep(2000);
 			updateLog().debug("Edit Account Details clicked");
 		}

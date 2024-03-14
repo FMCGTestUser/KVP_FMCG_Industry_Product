@@ -32,11 +32,11 @@ public class Util_AndroidActions extends Util_AppiumConfig{
 			getId(),"duration",2000));	       		
 	}	
 	
-	public void scrollActionsRandom(String direction) {
+	public void scrollActionsRandom(String direction, double percent) {
 		((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
 			    "left", 100, "top", 100, "width", 200, "height", 200,
 			    "direction", direction,//up, down,left, right
-			    "percent", 3.0
+			    "percent", percent
 			));
 	}
 	

@@ -39,11 +39,12 @@ public class Page_ProductList extends Util_AndroidActions {
 			searchProduct.get(0).click();
 			searchProduct.get(0).clear();
 			searchProduct.get(0).sendKeys(input.get("productName"+prodNum));
-			if(products.get(index).getAttribute("content-desc").contains(input.get("productName"+prodNum))) {
-				products.get(index).click();
+			int size = products.size();
+			if(size==0) {
+				org.testng.Assert.fail("Entered product "+input.get("accountName"+prodNum)+" not in search list test is failed.");
+			}else if(products.get(0).getAttribute("content-desc").contains(input.get("productName"+prodNum))) {
+				products.get(0).click();
 				Thread.sleep(2000);//wait to next page image load
-			}else {
-			org.testng.Assert.fail("Entered product not in search list test is failed.");
 			}
 			updateLog().debug("User provided product is searched and selected");
 	}

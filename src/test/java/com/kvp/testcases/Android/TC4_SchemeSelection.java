@@ -12,7 +12,7 @@ public class TC4_SchemeSelection extends AndroidBaseTest{
 	
 	@Test(groups = {"All_Tests"})
 	public void selectScheme() throws IOException, InterruptedException  {
-//		getLoginData();	
+		getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);
 		widget.startJourney();
 		Page_CheckInDetail detail = new Page_CheckInDetail(driver);

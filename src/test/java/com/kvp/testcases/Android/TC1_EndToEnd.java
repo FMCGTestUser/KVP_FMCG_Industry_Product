@@ -20,7 +20,7 @@ public class TC1_EndToEnd extends AndroidBaseTest{
 		
 	@Test(groups = {"Regression","All_Tests"})
 	public void endToEnd() throws IOException, InterruptedException  {
-//		getLoginData();	
+		getLoginData();	
 		Page_JourneyCalendar widget = new Page_JourneyCalendar(driver);
 		widget.startJourney();
 		Page_CheckInDetail detail = new Page_CheckInDetail(driver);
@@ -28,7 +28,7 @@ public class TC1_EndToEnd extends AndroidBaseTest{
 		Page_ProductList list =new Page_ProductList(driver);
 		Page_ProductDetails details =new Page_ProductDetails(driver);
 		Page_CartScreen cart = new Page_CartScreen(driver);
-		for(int i=0;i<getIndexData().get(getIndexData().size()-2).size();i++) { //index starts from zero Size from O1 take case while looping
+		for(int i=0;i<getIndexData().get(getIndexData().size()-2).size();i++) { //index starts from zero Size from O1 take care while looping
 			list.selectProduct(i);
 			details.selectDetails();
 			Thread.sleep(2000);

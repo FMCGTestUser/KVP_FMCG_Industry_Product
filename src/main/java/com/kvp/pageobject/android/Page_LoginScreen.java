@@ -29,6 +29,7 @@ public class Page_LoginScreen extends Util_AndroidActions {
 	
 	public void login(String name,String password) throws InterruptedException, IOException {	
 		userName.click();
+		Thread.sleep(2000);
 		userName.sendKeys(name);
 		Thread.sleep(1000);
 		userPassword.click();
