@@ -4,7 +4,7 @@ import java.io.IOException;
 import org.testng.annotations.Test;
 import com.kvp.pageobject.android.Page_DrawerMenu;
 import com.kvp.pageobject.android.Page_AccountList;
-import com.kvp.pageobject.android.Page_CreateNewAccount;
+import com.kvp.pageobject.android.Page_AccountCreateNew;
 import com.kvp.project.testutils.AndroidBaseTest;
 
 public class TC7_AddNewAccounts extends AndroidBaseTest{
@@ -17,9 +17,11 @@ public class TC7_AddNewAccounts extends AndroidBaseTest{
 		drawer.viewAccount();
 		Page_AccountList list =new Page_AccountList(driver);
 		list.addAccount();
-		Page_CreateNewAccount newAcc =new Page_CreateNewAccount(driver);
+		Page_AccountCreateNew newAcc =new Page_AccountCreateNew(driver);
 		newAcc.mapConfirmation();
 		newAcc.createAccounts();
+		newAcc.navigateBack();
+		doLogout();
 	}
 }
 

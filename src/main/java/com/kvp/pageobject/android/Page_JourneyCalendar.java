@@ -33,8 +33,8 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
     @AndroidFindBy(xpath = "//android.view.View[5]/android.view.View/android.view.View")
     private WebElement calendersection;
     
-    @AndroidFindBy(xpath = "//android.view.View/android.view.View[6]")
-    private List<WebElement> startAction;
+    @AndroidFindBy(xpath = "//android.view.View/android.view.View[6]/android.view.View/android.view.View")
+    private List<WebElement> journeys;
     
     public int userDateSplit(int index) throws IOException { //DD/MM/YYYY splitter will save under index 0,1 and 2 
     	Util_PropertyConfig prop = new Util_PropertyConfig();
@@ -144,7 +144,7 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
     
     public void startJourney() throws InterruptedException, IOException {
     	calenderAction();
-    	startAction.get(1).click();
+    	journeys.get(0).click();
     	Thread.sleep(1000);
     	updateLog().debug("Journey started for the provided calendar date");
     }  

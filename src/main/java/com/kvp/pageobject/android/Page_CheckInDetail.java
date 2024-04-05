@@ -46,6 +46,10 @@ public class Page_CheckInDetail extends Util_AndroidActions{
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.Button")//returns 3 element navigate back, cancel and check-in
 	private List<WebElement> buttons;
     
+    @AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Create Order\"]")
+    private WebElement createOrder;
+  
+    
 	public void checkIn() throws InterruptedException, IOException {
 		if(mapConfirmation.isDisplayed()) {
 			mapConfirmation.click();
@@ -78,5 +82,17 @@ public class Page_CheckInDetail extends Util_AndroidActions{
 		restartIcon.click();
 		buttons.get(1).click();
 		updateLog().debug("Check-Out done and navigated to No Orders");
+	}	
+	
+	public void createOrder() throws InterruptedException, IOException {
+		ordersTab.click();
+		Thread.sleep(2000);
+		createOrder.click();
+		updateLog().debug("Order creation initiated");
+	}	
+	
+	public void cancelJourney() throws IOException {
+		buttons.get(1).click();
+		updateLog().debug("Journey cancelled successfullly ");
 	}	
 }

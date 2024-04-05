@@ -23,7 +23,7 @@ public class Page_AccountList extends Util_AndroidActions {
 	@AndroidFindBy(xpath = "//android.widget.ImageView")
 	private WebElement searchAccount;
 
-	@AndroidFindBy(xpath = "//android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View")
+	@AndroidFindBy(xpath = "//android.view.View[2]/android.view.View/android.view.View")
 	private List<WebElement> accounts;
 	
 	@AndroidFindBy(xpath = "//android.widget.Button")
@@ -34,6 +34,7 @@ public class Page_AccountList extends Util_AndroidActions {
 		searchAccount.click();
 		searchAccount.clear();
 		searchAccount.sendKeys(input.get("accountName"+accountNum));
+		Thread.sleep(2000);
 		int size = accounts.size();
 		if(size==0) {
 			org.testng.Assert.fail("Entered product "+input.get("accountName"+accountNum)+" not in search list test is failed.");

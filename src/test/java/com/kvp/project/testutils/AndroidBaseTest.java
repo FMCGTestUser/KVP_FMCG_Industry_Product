@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
+import com.kvp.pageobject.android.Page_DrawerMenu;
 import com.kvp.pageobject.android.Page_LoginScreen;
 import com.kvp.project.reusableutils.Util_AppiumConfig;
 import com.kvp.project.reusableutils.Util_PropertyConfig;
@@ -61,6 +63,11 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 		Page_LoginScreen signin = new Page_LoginScreen(driver);
 		signin.login(input.get("userName"),input.get("password"));
 		Thread.sleep(2000);
+	}
+	
+	public void doLogout() throws IOException, InterruptedException{
+		Page_DrawerMenu drawer = new Page_DrawerMenu(driver);
+		drawer.logout();
 	}
 	
 	@AfterClass(alwaysRun=true) //independent of any tags 

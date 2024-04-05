@@ -30,21 +30,27 @@ public class Page_DrawerMenu extends Util_AndroidActions {
     @AndroidFindBy(xpath ="//android.widget.ImageView[4]")
     private WebElement logout;
     
+    @AndroidFindBy(xpath ="//android.widget.Button[@content-desc=\"Yes\"]")
+    private WebElement confirmation;
+    
     public void viewJourney() throws IOException {
     	drawerMenu.click();
     	journeys.click();
     	updateLog().debug("Journey menu selected");
     }
     
-    public void viewAccount() throws IOException {
+    public void viewAccount() throws IOException, InterruptedException {
     	drawerMenu.click();
     	accounts.click();
+    	Thread.sleep(2000);
     	updateLog().debug("Accounts menu selected");
     }
     
-    public void logout() throws IOException{
+    public void logout() throws IOException, InterruptedException{
     	drawerMenu.click();
     	logout.click();
+    	Thread.sleep(2000);
+    	confirmation.click();
     	updateLog().debug("User logged out successfuly");
     }
 }

@@ -21,17 +21,14 @@ public class Page_ProductList extends Util_AndroidActions {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-	@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.Button")
-	private WebElement navigateBack;
+	@AndroidFindBy(xpath = "//android.view.View[1]/android.widget.Button") // navigate back and cart two elements
+	private List<WebElement> buttons;
 	
     @AndroidFindBy(xpath = "//android.view.View/android.widget.ImageView[1]")//two elements text box and 1st product
     private List<WebElement> searchProduct;
     
     @AndroidFindBy(xpath = "//android.view.View[2]/android.view.View/android.widget.ImageView")
     private List<WebElement> products;
-	
-    @AndroidFindBy(xpath = "//android.view.View/android.widget.ImageView[2]")
-    private List<WebElement> cart;
     
 
 	public void searchProducts(HashMap<String, String> input, int index) throws InterruptedException, IOException {	
@@ -54,7 +51,7 @@ public class Page_ProductList extends Util_AndroidActions {
 	}
 	
 	public void viewCart() throws IOException {
-		cart.get(1).click();
+		buttons.get(1).click();
 		updateLog().debug("clicked on cart to view the cart items");
 	}
 }

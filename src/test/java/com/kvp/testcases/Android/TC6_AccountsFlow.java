@@ -21,8 +21,9 @@ public class TC6_AccountsFlow extends AndroidBaseTest{
 			list.selectAccount(i);
 			details.viewTabs();
 			Thread.sleep(2000);
-			details.navigateBack();
+			details.navigateBack();		
 		}
+		doLogout();
 	}
 }
 
