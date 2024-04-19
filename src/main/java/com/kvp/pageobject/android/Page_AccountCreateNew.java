@@ -1,7 +1,6 @@
 package com.kvp.pageobject.android;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -21,19 +20,37 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	@AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1]")
+	@AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.Button[1]")
 	private WebElement mapConfirmation;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[1]")
 	private WebElement accountName;
+	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Primary Supplier\"]/android.view.View")
+	private WebElement primarySupplier;
+	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Jio Mart Mangalore\"]")
+	private WebElement selectSupplier;
+	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Account Type *\"]/android.view.View")
+	private WebElement accountType;
+	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Wholesaler\"]")
+	private WebElement selectType;	
 
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[2]")
-	private WebElement firstName;
-	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
-	private WebElement lastName;
+	private WebElement gstNo;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[2]")
+	private WebElement panNo;
+	
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
+	private WebElement firstName;
+	
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
+	private WebElement lastName;
+	
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[5]")
 	private WebElement phoneNo;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")//based on the scroll index varies so 3 scroll done and index verified and updated
@@ -43,46 +60,37 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	private WebElement alternatePhone;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[5]")
-	private WebElement gstNo;
-	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[2]")
-	private WebElement panNo;
-	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
 	private WebElement webURL;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
-	private WebElement street;
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
+	private WebElement address1;
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Country\"]/android.view.View")
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
+	private WebElement address2	;
+	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Country *\"]/android.view.View")
 	private WebElement country;	
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"India\"]")
 	private WebElement selectCountry;	
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"State\"]/android.view.View")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"State *\"]/android.view.View")
 	private WebElement state;	
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Karnataka\"]")
 	private WebElement selectState;	
 		
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"City\"]/android.view.View")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"City *\"]/android.view.View	")
 	private WebElement city;
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Mangaluru\"]")
 	private WebElement selectCity;
 
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Zipcode\"]/android.view.View")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Zipcode *\"]/android.view.View")
 	private WebElement zipCode;	
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"560099\"]")
 	private WebElement selectZipCode;	
-	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Supplier\"]/android.view.View")
-	private WebElement supplier;
-	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Jio Mart Mangalore\"]")
-	private WebElement selectSupplier;
 	
 	@AndroidFindBy(xpath = "//android.widget.Button")
 	private List<WebElement> navigateBack; //navigate back and create account button
@@ -104,34 +112,38 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	public void createAccounts() throws IOException, InterruptedException {	
 		accountName.click();
 		accountName.sendKeys("FMCG Test Account");
-		supplier.click();
+		primarySupplier.click();
 		selectSupplier.click();	
-		firstName.click();
-		firstName.sendKeys("FMCG");
-		lastName.click();
-		lastName.sendKeys("QA");
-		scrollActionsRandom("down",5.0);
-		phoneNo.click();
-		phoneNo.sendKeys("9988997799");
-		email.click();
-		email.sendKeys("fmcgtest@gmail.com");
-		alternatePhone.click();
-		alternatePhone.sendKeys("8899776655");
+		accountType.click();
+		selectType.click();
 		gstNo.click();
 		gstNo.sendKeys("07AAAAA1234A1Z1");
 		scrollActionsRandom("down",5.0);
 		panNo.click();
 		panNo.sendKeys("CPHTT6565M");
+		firstName.click();
+		firstName.sendKeys("FMCG");
+		lastName.click();
+		lastName.sendKeys("QA");
+		phoneNo.click();
+		phoneNo.sendKeys("9988997799");
+		scrollActionsRandom("down",5.0);
+		email.click();
+		email.sendKeys("fmcgtest@gmail.com");
+		alternatePhone.click();
+		alternatePhone.sendKeys("8899776655");
 		webURL.click();
-		webURL.sendKeys("www.test.com");
-		street.click();
-		street.sendKeys("Lalbagh");
+		webURL.sendKeys("https://dev.kuiqly.com");			
+		scrollActionsRandom("down",4.0);	
+		address1.click();
+		address1.sendKeys("Lalbagh near KSRTC");
+		address2.click();
+		address2.sendKeys("street no. 50");
 		country.click();
 		selectCountry.click();	
-		scrollActionsRandom("down",3.0);	
+		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		state.click();
 		selectState.click();
-		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		city.click();
 		selectCity.click();
 		zipCode.click();
