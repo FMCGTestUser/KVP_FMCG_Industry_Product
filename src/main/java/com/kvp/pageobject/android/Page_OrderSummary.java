@@ -19,8 +19,15 @@ public class Page_OrderSummary extends Util_AndroidActions {
 	
 	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Done\"]")
 	private WebElement doneButton;
+	
+	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Back\"]")
+	private WebElement backButton;
 	  
 	public void completeOrder() {
 		doneButton.click();
+	}
+	
+	public void navigateBack() {
+		backButton.click();
 	}
 }

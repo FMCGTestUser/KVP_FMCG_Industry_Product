@@ -95,4 +95,8 @@ public class Page_CheckInDetail extends Util_AndroidActions{
 		buttons.get(1).click();
 		updateLog().debug("Journey cancelled successfullly ");
 	}	
+	
+	public void navigateBack() {
+		buttons.get(0).click();
+	}	
 }

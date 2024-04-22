@@ -718,3 +718,41 @@
 19 Apr 2024 16:56:14  devpinoyLogger Verified all the tabs
 19 Apr 2024 16:56:22  devpinoyLogger User logged out successfuly
 19 Apr 2024 16:56:23  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:17:35  devpinoyLogger -------------------Test Started-------------------
+22 Apr 2024 16:17:44  devpinoyLogger User logged in Successfully
+22 Apr 2024 16:17:51  devpinoyLogger Accounts menu selected
+22 Apr 2024 16:17:56  devpinoyLogger Add New Account clicked on Account Details screen
+22 Apr 2024 16:18:00  devpinoyLogger Google map pop up selected
+22 Apr 2024 16:18:56  devpinoyLogger New account created successfully
+22 Apr 2024 16:19:01  devpinoyLogger User logged out successfuly
+22 Apr 2024 16:19:02  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:28:15  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:28:30  devpinoyLogger -------------------Test Started-------------------
+22 Apr 2024 16:28:41  devpinoyLogger User logged in Successfully
+22 Apr 2024 16:28:47  devpinoyLogger Accounts menu selected
+22 Apr 2024 16:28:53  devpinoyLogger Searched user provided Account and selected the same
+22 Apr 2024 16:29:01  devpinoyLogger Edit Account Details clicked
+22 Apr 2024 16:29:42  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:31:04  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:31:38  devpinoyLogger -------------------Test Started-------------------
+22 Apr 2024 16:31:48  devpinoyLogger User logged in Successfully
+22 Apr 2024 16:31:54  devpinoyLogger Accounts menu selected
+22 Apr 2024 16:32:01  devpinoyLogger Searched user provided Account and selected the same
+22 Apr 2024 16:32:09  devpinoyLogger Verified all the tabs
+22 Apr 2024 16:32:19  devpinoyLogger Searched user provided Account and selected the same
+22 Apr 2024 16:32:26  devpinoyLogger Verified all the tabs
+22 Apr 2024 16:32:33  devpinoyLogger User logged out successfuly
+22 Apr 2024 16:32:34  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:33:08  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 16:33:21  devpinoyLogger -------------------Test Started-------------------
+22 Apr 2024 16:33:32  devpinoyLogger User logged in Successfully
+22 Apr 2024 16:33:41  devpinoyLogger User logged out successfuly
+22 Apr 2024 16:34:18  devpinoyLogger User logged in Successfully
+22 Apr 2024 16:34:28  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 17:41:58  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 17:42:10  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 17:42:18  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 17:43:05  devpinoyLogger -------------------Test Ended-------------------
+22 Apr 2024 17:43:32  devpinoyLogger -------------------Test Started-------------------
+22 Apr 2024 17:43:42  devpinoyLogger User logged in Successfully
+22 Apr 2024 17:43:56  devpinoyLogger -------------------Test Ended-------------------

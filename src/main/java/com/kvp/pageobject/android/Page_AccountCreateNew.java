@@ -159,19 +159,15 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 		accountName.clear();
 		accountName.sendKeys(accName+" Edited");
 		scrollActionsRandom("down",5.0);
-		alternatePhone.click();
-		alternatePhone.sendKeys("8899776655");
-		scrollActionsRandom("down",5.0);	
+		phoneNo.click();
+		phoneNo.clear();
+		phoneNo.sendKeys("9035429235");
+		scrollActionsRandom("down",5.0);
+		scrollActionsRandom("down",4.0);	
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
-		scrollActionsRandom("down",3.0);
-		country.click();
-		selectCountry.click();		
-		state.click();
-		selectState.click();		
-		city.click();
-		selectCity.click();	
-		zipCode.click();
-		selectZipCode.click();
+		address2.click();
+		address2.clear();
+		address2.sendKeys("street no. 50,near to ideal cafe");
 		saveAccount.click();
 		updateLog().debug("Account details edited and updated successfully");
 	}
