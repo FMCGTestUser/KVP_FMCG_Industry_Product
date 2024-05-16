@@ -25,6 +25,9 @@ public class Page_LoginScreen extends Util_AndroidActions {
 	private WebElement userPassword;
 	
 	@AndroidFindBy(xpath ="//android.widget.Button")
+	private WebElement viewPassword;
+	
+	@AndroidFindBy(xpath ="//android.widget.Button[@content-desc=\"Sign In\"]")
 	private WebElement signInButton;
 	
 	public void login(String name,String password) throws InterruptedException, IOException {	

@@ -9,8 +9,8 @@
   <test thread-count="5" name="End to end Framework Test">
     <classes>
    <!--   <class name="com.kvp.testcases.Android.TC1_EndToEnd"/>    
-      <class name="com.kvp.testcases.Android.TC3_NoOrder"/>  
-      <class name="com.kvp.testcases.Android.TC4_SchemeSelection"/>  -->
+      <class name="com.kvp.testcases.Android.TC3_NoOrder"/>  -->
+      <class name="com.kvp.testcases.Android.TC2_LoginScreenTest"/>  
       <class name="com.kvp.testcases.Android.TC6_AccountsFlow"/>  
       <class name="com.kvp.testcases.Android.TC7_AddNewAccounts"/>  
       <class name="com.kvp.testcases.Android.TC8_EditAccounts"/>   

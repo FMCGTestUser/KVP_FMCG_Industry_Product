@@ -19,7 +19,10 @@ public class Page_CheckInDetail extends Util_AndroidActions{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
-    @AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1]")
+    @AndroidFindBy(xpath = "//android.widget.LinearLayout[@resource-id=\"com.android.permissioncontroller:id/grant_dialog\"]")
+    private WebElement mapCheck;
+    
+    @AndroidFindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]")
     private WebElement mapConfirmation;
     
     @AndroidFindBy(xpath = "//android.view.View[2]/android.view.View[1]/android.view.View[1]")
@@ -51,7 +54,7 @@ public class Page_CheckInDetail extends Util_AndroidActions{
   
     
 	public void checkIn() throws InterruptedException, IOException {
-		if(mapConfirmation.isDisplayed()) {
+		if(mapCheck.isDisplayed()) {
 			mapConfirmation.click();
 		}
 		Thread.sleep(2000);

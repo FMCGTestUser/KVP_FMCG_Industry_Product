@@ -13,9 +13,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class Page_AccountDetails extends Util_AndroidActions{
 
-	AndroidDriver driver;
-	Page_CheckInDetail checkin = new Page_CheckInDetail(driver);
-	Page_OrderSummary summary = new Page_OrderSummary(driver);
+	AndroidDriver driver;	
 	
 	public Page_AccountDetails(AndroidDriver driver)
 	{
@@ -75,7 +73,8 @@ public class Page_AccountDetails extends Util_AndroidActions{
 		}	
 		
 		public void checkInNavigation() throws InterruptedException, IOException {
-			for(int i=0;i<checkInRecords.size()-1;i++) {
+			for(int i=0;i<checkInRecords.size();i++) {
+				Page_CheckInDetail checkin = new Page_CheckInDetail(driver);
 				if(checkInRecords.get(i).getAttribute("content-desc").contains("In Progress")) {
 					checkInRecords.get(i).click();
 					Thread.sleep(5000);
@@ -90,16 +89,16 @@ public class Page_AccountDetails extends Util_AndroidActions{
 		}
 		
 		public void orderNavigation() throws InterruptedException {
-			for(int i=0;i<orderRecords.size()-1;i++) {
+			for(int i=0;i<orderRecords.size();i++) {
 				orderRecords.get(i).click();
 				Thread.sleep(5000);
-				summary.navigateBack();
+				navigateBack();
 			}
 			
 		}
 		
 		public void fileNavigation() throws InterruptedException {
-			for(int i=0;i<fileRecords.size()-1;i++) {
+			for(int i=0;i<fileRecords.size();i++) {
 				fileRecords.get(i).click();
 				Thread.sleep(2000);
 				driver.pressKey(new KeyEvent(AndroidKey.BACK));

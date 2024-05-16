@@ -29,7 +29,7 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Primary Supplier\"]/android.view.View")
 	private WebElement primarySupplier;
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Jio Mart Mangalore\"]")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Mobile Planet\"]")
 	private WebElement selectSupplier;
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Account Type *\"]/android.view.View")
@@ -53,13 +53,13 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[5]")
 	private WebElement phoneNo;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")//based on the scroll index varies so 3 scroll done and index verified and updated
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[2]")//based on the scroll index varies 
 	private WebElement email;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
 	private WebElement alternatePhone;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[5]")
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
 	private WebElement webURL;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
@@ -100,6 +100,10 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	
 	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Save\"]")
 	private WebElement saveAccount;
+	
+	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"OK\"]")
+	private WebElement confirmation;
+	
 	
     public void mapConfirmation() throws InterruptedException, IOException {
     	if(mapConfirmation.isDisplayed()) {
@@ -168,7 +172,9 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 		address2.click();
 		address2.clear();
 		address2.sendKeys("street no. 50,near to ideal cafe");
+		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		saveAccount.click();
+		confirmation.click();
 		updateLog().debug("Account details edited and updated successfully");
 	}
 	
