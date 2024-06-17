@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kvp.testcases.Android.TC8_EditAccounts">
+      <class name="com.kvp.testcases.Android.TC5_EditAccounts">
         <methods>
           <include name="accountsFlow"/>
           <include name="configureAppium"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kvp.testcases.Android.TC8_EditAccounts -->
+      </class> <!-- com.kvp.testcases.Android.TC5_EditAccounts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

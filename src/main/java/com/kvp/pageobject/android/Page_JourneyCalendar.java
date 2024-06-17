@@ -144,7 +144,16 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
     
     public void startJourney() throws InterruptedException, IOException {
     	calenderAction();
-    	journeys.get(0).click();
+    	for(int i=0;i<journeys.size();i++) {
+    		if(journeys.get(i).getAttribute("content-desc").contains("Not Started")) {
+				journeys.get(i).click();				
+				Thread.sleep(1000);
+			}else {
+				journeys.get(0).click();
+				Thread.sleep(2000);
+			}
+    	}
+				
     	Thread.sleep(1000);
     	updateLog().debug("Journey started for the provided calendar date");
     }  

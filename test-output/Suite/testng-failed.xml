@@ -6,18 +6,20 @@
   </listeners>
   <test thread-count="5" name="End to end Framework Test(failed)">
     <classes>
-      <class name="com.kvp.testcases.Android.TC8_EditAccounts">
+      <class name="com.kvp.testcases.Android.TC6_AccountsFlow">
         <methods>
+          <include name="configureAppium"/>
+          <include name="tearDown"/>
           <include name="accountsFlow"/>
+        </methods>
+      </class> <!-- com.kvp.testcases.Android.TC6_AccountsFlow -->
+      <class name="com.kvp.testcases.Android.TC2_LoginScreenTest">
+        <methods>
+          <include name="loginScreenTest" invocation-numbers="1 2"/>
           <include name="configureAppium"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kvp.testcases.Android.TC8_EditAccounts -->
-      <class name="com.kvp.testcases.Android.Testtempresult">
-        <methods>
-          <include name="skipVerification"/>
-        </methods>
-      </class> <!-- com.kvp.testcases.Android.Testtempresult -->
+      </class> <!-- com.kvp.testcases.Android.TC2_LoginScreenTest -->
     </classes>
   </test> <!-- End to end Framework Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

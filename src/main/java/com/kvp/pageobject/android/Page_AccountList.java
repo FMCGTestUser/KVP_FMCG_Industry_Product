@@ -33,6 +33,7 @@ public class Page_AccountList extends Util_AndroidActions {
 		int accountNum=index+1;							//name starts from 1 but index starts from zero.
 		searchAccount.click();
 		searchAccount.clear();
+		Thread.sleep(2000);
 		searchAccount.sendKeys(input.get("accountName"+accountNum));
 		Thread.sleep(2000);
 		int size = accounts.size();

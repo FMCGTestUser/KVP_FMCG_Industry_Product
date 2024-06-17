@@ -18,12 +18,6 @@ public class Page_CheckInDetail extends Util_AndroidActions{
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-
-    @AndroidFindBy(xpath = "//android.widget.LinearLayout[@resource-id=\"com.android.permissioncontroller:id/grant_dialog\"]")
-    private WebElement mapCheck;
-    
-    @AndroidFindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]")
-    private WebElement mapConfirmation;
     
     @AndroidFindBy(xpath = "//android.view.View[2]/android.view.View[1]/android.view.View[1]")
     private WebElement detailsTab;
@@ -37,54 +31,34 @@ public class Page_CheckInDetail extends Util_AndroidActions{
     @AndroidFindBy(xpath = "//android.widget.ScrollView/android.view.View[1]")
     private WebElement googleMap;
     
-    @AndroidFindBy(xpath = "//android.widget.ScrollView/android.view.View[8]")
-    private WebElement playIcon;
-    
-    @AndroidFindBy(xpath = "//android.widget.ScrollView/android.view.View[9]")
-    private WebElement pauseIcon;
-    
-    @AndroidFindBy(xpath = "//android.widget.ScrollView/android.view.View[10]")
-    private WebElement restartIcon;
-    
     @AndroidFindBy(xpath = "//android.view.View[1]/android.widget.Button")//returns 3 element navigate back, cancel and check-in
 	private List<WebElement> buttons;
+    
+    @AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"OK\"]")
+	private WebElement popupConfirm;
     
     @AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Create Order\"]")
     private WebElement createOrder;
   
     
 	public void checkIn() throws InterruptedException, IOException {
-		if(mapCheck.isDisplayed()) {
-			mapConfirmation.click();
-		}
-		Thread.sleep(2000);
 		googleMap.click();
 		Thread.sleep(2000);
 		doubleClick(googleMap);
-		playIcon.click();
-		Thread.sleep(2000);
-		pauseIcon.click();
-		Thread.sleep(2000);
-		restartIcon.click();
 		buttons.get(2).click();
-		updateLog().debug("Check-In done and navigated to Product list");
+		Thread.sleep(4000);
+		popupConfirm.click();
+		updateLog().debug("Check-In done successfully");
 	}
 	
 	public void checkOut() throws InterruptedException, IOException {
-		if(mapConfirmation.isDisplayed()) {
-			mapConfirmation.click();
-		}
-		Thread.sleep(2000);
 		googleMap.click();
 		Thread.sleep(2000);
 		doubleClick(googleMap);
-		playIcon.click();
-		Thread.sleep(2000);
-		pauseIcon.click();
-		Thread.sleep(2000);
-		restartIcon.click();
-		buttons.get(1).click();
-		updateLog().debug("Check-Out done and navigated to No Orders");
+		buttons.get(2).click();
+		Thread.sleep(4000);
+		popupConfirm.click();
+		updateLog().debug("Check-Out done successfully");
 	}	
 	
 	public void createOrder() throws InterruptedException, IOException {

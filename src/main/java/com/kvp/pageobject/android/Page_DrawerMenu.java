@@ -18,22 +18,28 @@ public class Page_DrawerMenu extends Util_AndroidActions {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
+	@AndroidFindBy(xpath = "//android.widget.LinearLayout[@resource-id=\"com.android.permissioncontroller:id/grant_dialog\"]")
+	private WebElement mapCheck;
+	    
+	@AndroidFindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]")
+	private WebElement mapConfirmation;
+	    
     @AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Open navigation menu\"]")
 	private WebElement drawerMenu; 
 	
-    @AndroidFindBy(xpath ="//android.widget.ImageView[4]")//home added it will be 2 and rest will increment accordingly
+    @AndroidFindBy(xpath ="//android.widget.ImageView[2]")//home added it will be 2 and rest will increment accordingly
     private WebElement home;
     
-    @AndroidFindBy(xpath ="//android.widget.ImageView[2]")
+    @AndroidFindBy(xpath ="//android.widget.ImageView[3]")
     private WebElement accounts;
 	
-    @AndroidFindBy(xpath ="//android.widget.ImageView[3]")
+    @AndroidFindBy(xpath ="//android.widget.ImageView[4]")
     private WebElement journeys;
     
-    @AndroidFindBy(xpath ="//android.widget.ImageView[4]")
+    @AndroidFindBy(xpath ="//android.widget.ImageView[5]")
     private WebElement attendance;
     
-    @AndroidFindBy(xpath ="//android.widget.ImageView[5]")
+    @AndroidFindBy(xpath ="//android.widget.ImageView[6]")
     private WebElement logout;
     
     @AndroidFindBy(xpath ="//android.widget.Button[@content-desc=\"Yes\"]")
@@ -72,5 +78,13 @@ public class Page_DrawerMenu extends Util_AndroidActions {
     	Thread.sleep(2000);
     	confirmation.click();
     	updateLog().debug("User logged out successfuly");
+    }
+    
+    public void skipMapPopup() throws IOException, InterruptedException{
+    	if(mapCheck.isDisplayed()) {
+    		mapConfirmation.click();
+    	}
+    	Thread.sleep(2000);
+    	updateLog().debug("User Skipped the location pop-up in Dashboard screen");
     }
 }

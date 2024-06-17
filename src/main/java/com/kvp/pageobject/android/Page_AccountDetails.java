@@ -79,6 +79,7 @@ public class Page_AccountDetails extends Util_AndroidActions{
 					checkInRecords.get(i).click();
 					Thread.sleep(5000);
 					checkin.checkOut();
+					Thread.sleep(1000);
 					checkin.navigateBack();
 				}else {
 					checkInRecords.get(i).click();

@@ -20,8 +20,6 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	@AndroidFindBy(xpath = "//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.Button[1]")
-	private WebElement mapConfirmation;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[1]")
 	private WebElement accountName;
@@ -29,7 +27,7 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Primary Supplier\"]/android.view.View")
 	private WebElement primarySupplier;
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Mobile Planet\"]")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Chittorgarh Retailer\"]")
 	private WebElement selectSupplier;
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Account Type *\"]/android.view.View")
@@ -53,13 +51,13 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[5]")
 	private WebElement phoneNo;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[2]")//based on the scroll index varies 
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")//based on the scroll index varies 
 	private WebElement email;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
 	private WebElement alternatePhone;
 	
-	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[4]")
+	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[5]")
 	private WebElement webURL;
 	
 	@AndroidFindBy(xpath = "//android.widget.ScrollView/android.widget.EditText[3]")
@@ -77,20 +75,20 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"State *\"]/android.view.View")
 	private WebElement state;	
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Karnataka\"]")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Rajasthan\"]")
 	private WebElement selectState;	
 		
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"City *\"]/android.view.View	")
 	private WebElement city;
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Mangaluru\"]")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Chittorgarh\"]")
 	private WebElement selectCity;
 
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Zipcode *\"]/android.view.View")
-	private WebElement zipCode;	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Pin/Zip Code *\"]/android.view.View")
+	private WebElement pinCode;	
 	
-	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"560099\"]")
-	private WebElement selectZipCode;	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"312023\"]")
+	private WebElement selectPinCode;	
 	
 	@AndroidFindBy(xpath = "//android.widget.Button")
 	private List<WebElement> navigateBack; //navigate back and create account button
@@ -103,16 +101,7 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 	
 	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"OK\"]")
 	private WebElement confirmation;
-	
-	
-    public void mapConfirmation() throws InterruptedException, IOException {
-    	if(mapConfirmation.isDisplayed()) {
-			mapConfirmation.click();
-			Thread.sleep(2000);
-			updateLog().debug("Google map pop up selected");
-		}
-    }
-    
+	   
 	public void createAccounts() throws IOException, InterruptedException {	
 		accountName.click();
 		accountName.sendKeys("FMCG Test Account");
@@ -150,8 +139,8 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 		selectState.click();
 		city.click();
 		selectCity.click();
-		zipCode.click();
-		selectZipCode.click();
+		pinCode.click();
+		selectPinCode.click();
 		createAccount.click();
 		Thread.sleep(3000);
 		updateLog().debug("New account created successfully");
@@ -169,9 +158,12 @@ public class Page_AccountCreateNew extends Util_AndroidActions {
 		scrollActionsRandom("down",5.0);
 		scrollActionsRandom("down",4.0);	
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		address1.click();
+		address1.clear();
+		address1.sendKeys("street no. 50");
 		address2.click();
 		address2.clear();
-		address2.sendKeys("street no. 50,near to ideal cafe");
+		address2.sendKeys("near to ideal cafe");
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		saveAccount.click();
 		confirmation.click();

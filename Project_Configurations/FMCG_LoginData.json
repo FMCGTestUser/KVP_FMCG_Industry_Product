@@ -1,23 +1,26 @@
 [
     {
-      "userName": "kuiqly",
-      "password": "V@run123"
+      "userName": "bkp",
+      "password": "V@run123",
+      "domain": "bkp"
     },
     {
-      "userName": "varun",
-      "password": "56789"
+      "userName": "kuiqly",
+      "password": "V@run123",
+      "domain": "dev"
     },
       {
-      "userName": "Aarzoo",
-      "password": "AB01@#%"
+      "userName": "bkp",
+      "password": "V@run123",
+      "domain": "dev"
     },
     {
-      "productName1": "Kurtha Set",
-      "productName2": "Saari"
+      "productName1": "Kadak Piyali - 250gms",
+      "productName2": "Kadak Piyali - 30gms"
     },
     {
-      "accountName1": "Ballal Mobile",
-      "accountName2": "Saniya Mobile"
+      "accountName1": "Chittorgarh CFA",
+      "accountName2": "Chittorgarh Retailer"
     }
 ]
 

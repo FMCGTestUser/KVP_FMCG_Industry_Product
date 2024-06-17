@@ -61,7 +61,7 @@ public class AndroidBaseTest extends Util_AppiumConfig{
 
 	public void loginSetup(HashMap<String, String> input) throws InterruptedException, IOException  {
 		Page_LoginScreen signin = new Page_LoginScreen(driver);
-		signin.login(input.get("userName"),input.get("password"));
+		signin.login(input.get("userName"),input.get("password"),input.get("domain"));
 		Thread.sleep(2000);
 	}
 	

@@ -1,952 +1,207 @@
-14 Mar 2024 14:37:10  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:37:16  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:37:24  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:37:38  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:37:43  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:37:51  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:38:04  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:38:10  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:38:26  devpinoyLogger Selected the particular date provided by User
-14 Mar 2024 14:38:28  devpinoyLogger Journey started for the provided calendar date
-14 Mar 2024 14:38:39  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:38:52  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:38:58  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:39:11  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:39:24  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:39:30  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:39:44  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:39:57  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:40:03  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:40:16  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:55:48  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:55:54  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:56:42  devpinoyLogger Selected the particular date provided by User
-14 Mar 2024 14:56:43  devpinoyLogger Journey started for the provided calendar date
-14 Mar 2024 14:56:55  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:57:08  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:57:15  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:58:03  devpinoyLogger Selected the particular date provided by User
-14 Mar 2024 14:58:04  devpinoyLogger Journey started for the provided calendar date
-14 Mar 2024 14:58:16  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:58:28  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:58:35  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:58:43  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:58:54  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:59:02  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:59:06  devpinoyLogger Accounts menu selected
-14 Mar 2024 14:59:09  devpinoyLogger Searched user provided Account and selected the same
-14 Mar 2024 14:59:20  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 14:59:33  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 14:59:39  devpinoyLogger User logged in Successfully
-14 Mar 2024 14:59:53  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 15:00:05  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 15:00:11  devpinoyLogger User logged in Successfully
-14 Mar 2024 15:00:25  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 15:22:25  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 15:22:32  devpinoyLogger User logged in Successfully
-14 Mar 2024 15:22:37  devpinoyLogger Accounts menu selected
-14 Mar 2024 15:22:42  devpinoyLogger Searched user provided Account and selected the same
-14 Mar 2024 15:22:51  devpinoyLogger Verified all the tabs
-14 Mar 2024 15:22:58  devpinoyLogger Searched user provided Account and selected the same
-14 Mar 2024 15:23:05  devpinoyLogger Verified all the tabs
-14 Mar 2024 15:23:10  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 15:23:22  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 15:23:30  devpinoyLogger User logged in Successfully
-14 Mar 2024 15:23:35  devpinoyLogger Accounts menu selected
-14 Mar 2024 15:23:40  devpinoyLogger Add New Account clicked on Account Details screen
-14 Mar 2024 15:23:43  devpinoyLogger Google map pop up selected
-14 Mar 2024 15:24:29  devpinoyLogger New account created successfully
-14 Mar 2024 15:24:29  devpinoyLogger -------------------Test Ended-------------------
-14 Mar 2024 15:24:41  devpinoyLogger -------------------Test Started-------------------
-14 Mar 2024 15:24:49  devpinoyLogger User logged in Successfully
-14 Mar 2024 15:24:54  devpinoyLogger Accounts menu selected
-14 Mar 2024 15:24:57  devpinoyLogger Searched user provided Account and selected the same
-14 Mar 2024 15:25:09  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:05:45  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 11:05:55  devpinoyLogger User logged in Successfully
-18 Mar 2024 11:06:15  devpinoyLogger User logged in Successfully
-18 Mar 2024 11:06:35  devpinoyLogger User logged in Successfully
-18 Mar 2024 11:06:51  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:12:12  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 11:12:20  devpinoyLogger User logged in Successfully
-18 Mar 2024 11:12:40  devpinoyLogger User logged in Successfully
-18 Mar 2024 11:12:59  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:23:58  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:25:01  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:26:51  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:27:52  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:32:03  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:33:29  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:34:44  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 11:59:48  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 12:08:30  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 12:08:38  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:08:57  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:09:16  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:09:34  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 12:11:09  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 12:11:15  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:11:38  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:12:01  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:12:18  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 12:13:04  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 12:13:13  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:13:19  devpinoyLogger Accounts menu selected
-18 Mar 2024 12:13:23  devpinoyLogger Searched user provided Account and selected the same
-18 Mar 2024 12:13:34  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 12:14:54  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 12:15:02  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:15:08  devpinoyLogger Accounts menu selected
-18 Mar 2024 12:15:15  devpinoyLogger Searched user provided Account and selected the same
-18 Mar 2024 12:15:30  devpinoyLogger Verified all the tabs
-18 Mar 2024 12:15:36  devpinoyLogger Searched user provided Account and selected the same
-18 Mar 2024 12:15:46  devpinoyLogger -------------------Test Ended-------------------
-18 Mar 2024 12:24:46  devpinoyLogger -------------------Test Started-------------------
-18 Mar 2024 12:24:55  devpinoyLogger User logged in Successfully
-18 Mar 2024 12:24:59  devpinoyLogger Accounts menu selected
-18 Mar 2024 12:25:07  devpinoyLogger Searched user provided Account and selected the same
-18 Mar 2024 12:25:16  devpinoyLogger Verified all the tabs
-18 Mar 2024 12:25:24  devpinoyLogger Searched user provided Account and selected the same
-18 Mar 2024 12:25:33  devpinoyLogger Verified all the tabs
-18 Mar 2024 12:25:36  devpinoyLogger -------------------Test Ended-------------------
-20 Mar 2024 17:38:19  devpinoyLogger -------------------Test Started-------------------
-20 Mar 2024 17:38:28  devpinoyLogger User logged in Successfully
-20 Mar 2024 17:38:52  devpinoyLogger User logged in Successfully
-20 Mar 2024 17:39:15  devpinoyLogger User logged in Successfully
-20 Mar 2024 17:39:31  devpinoyLogger -------------------Test Ended-------------------
-22 Mar 2024 10:46:06  devpinoyLogger -------------------Test Started-------------------
-22 Mar 2024 10:46:14  devpinoyLogger User logged in Successfully
-28 Mar 2024 10:10:09  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 10:10:16  devpinoyLogger User logged in Successfully
-28 Mar 2024 10:10:23  devpinoyLogger User logged out successfuly
-28 Mar 2024 17:05:06  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 17:05:14  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:05:23  devpinoyLogger User logged out successfuly
-28 Mar 2024 17:05:31  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:06:01  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:06:17  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 17:07:40  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 17:07:48  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:07:57  devpinoyLogger User logged out successfuly
-28 Mar 2024 17:08:14  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:08:23  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 17:43:30  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 17:43:39  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:43:55  devpinoyLogger Selected the particular date provided by User
-28 Mar 2024 17:43:56  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 17:59:11  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 17:59:19  devpinoyLogger User logged in Successfully
-28 Mar 2024 17:59:35  devpinoyLogger Selected the particular date provided by User
-28 Mar 2024 17:59:36  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 18:02:21  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 18:02:29  devpinoyLogger User logged in Successfully
-28 Mar 2024 18:02:45  devpinoyLogger Selected the particular date provided by User
-28 Mar 2024 18:02:46  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 18:17:46  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 18:17:54  devpinoyLogger User logged in Successfully
-28 Mar 2024 18:18:11  devpinoyLogger Selected the particular date provided by User
-28 Mar 2024 18:18:12  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 18:19:36  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 18:19:44  devpinoyLogger User logged in Successfully
-28 Mar 2024 18:19:51  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 18:20:40  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 18:20:47  devpinoyLogger User logged in Successfully
-28 Mar 2024 18:20:55  devpinoyLogger -------------------Test Ended-------------------
-28 Mar 2024 18:21:52  devpinoyLogger -------------------Test Started-------------------
-28 Mar 2024 18:21:59  devpinoyLogger User logged in Successfully
-28 Mar 2024 18:22:16  devpinoyLogger Selected the particular date provided by User
-28 Mar 2024 18:22:17  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 11:53:47  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 11:53:56  devpinoyLogger User logged in Successfully
-01 Apr 2024 11:54:24  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 11:54:31  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 11:54:45  devpinoyLogger Order creation initiated
-01 Apr 2024 11:54:53  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 11:55:10  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 13:06:32  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 13:06:39  devpinoyLogger User logged in Successfully
-01 Apr 2024 13:07:08  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 13:07:09  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 13:07:17  devpinoyLogger Order creation initiated
-01 Apr 2024 13:07:29  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 13:10:57  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 13:11:07  devpinoyLogger User logged in Successfully
-01 Apr 2024 13:11:35  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 13:11:36  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 13:11:42  devpinoyLogger Order creation initiated
-01 Apr 2024 13:11:49  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 13:11:55  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 14:24:18  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 14:24:27  devpinoyLogger User logged in Successfully
-01 Apr 2024 14:24:55  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 14:24:56  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 14:25:04  devpinoyLogger Order creation initiated
-01 Apr 2024 14:25:10  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 14:25:25  devpinoyLogger Required product selected and added to the cart
-01 Apr 2024 14:25:42  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 16:22:33  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 16:22:41  devpinoyLogger User logged in Successfully
-01 Apr 2024 16:23:09  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 16:23:11  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 16:23:18  devpinoyLogger Order creation initiated
-01 Apr 2024 16:23:25  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 16:23:43  devpinoyLogger Required product selected and added to the cart
-01 Apr 2024 16:23:58  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 16:33:38  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 16:33:47  devpinoyLogger User logged in Successfully
-01 Apr 2024 16:34:15  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 16:34:16  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 16:34:23  devpinoyLogger Order creation initiated
-01 Apr 2024 16:34:30  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 16:34:49  devpinoyLogger Required product selected and added to the cart
-01 Apr 2024 16:34:55  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 16:35:22  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 16:53:20  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 16:53:29  devpinoyLogger User logged in Successfully
-01 Apr 2024 16:53:57  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 16:53:58  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 16:54:05  devpinoyLogger Order creation initiated
-01 Apr 2024 16:54:12  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 16:54:33  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 17:01:17  devpinoyLogger -------------------Test Ended-------------------
-01 Apr 2024 17:01:49  devpinoyLogger -------------------Test Started-------------------
-01 Apr 2024 17:01:57  devpinoyLogger User logged in Successfully
-01 Apr 2024 17:02:25  devpinoyLogger Selected the particular date provided by User
-01 Apr 2024 17:02:26  devpinoyLogger Journey started for the provided calendar date
-01 Apr 2024 17:02:34  devpinoyLogger Order creation initiated
-01 Apr 2024 17:02:40  devpinoyLogger User provided product is searched and selected
-01 Apr 2024 17:03:01  devpinoyLogger -------------------Test Ended-------------------
-02 Apr 2024 10:45:56  devpinoyLogger -------------------Test Started-------------------
-02 Apr 2024 10:46:02  devpinoyLogger User logged in Successfully
-02 Apr 2024 10:46:10  devpinoyLogger -------------------Test Ended-------------------
-02 Apr 2024 10:46:51  devpinoyLogger -------------------Test Ended-------------------
-02 Apr 2024 10:47:43  devpinoyLogger -------------------Test Started-------------------
-02 Apr 2024 10:47:51  devpinoyLogger User logged in Successfully
-02 Apr 2024 10:47:58  devpinoyLogger -------------------Test Ended-------------------
-03 Apr 2024 10:25:40  devpinoyLogger -------------------Test Started-------------------
-03 Apr 2024 10:25:47  devpinoyLogger User logged in Successfully
-03 Apr 2024 10:26:16  devpinoyLogger Selected the particular date provided by User
-03 Apr 2024 10:26:17  devpinoyLogger Journey started for the provided calendar date
-03 Apr 2024 10:26:25  devpinoyLogger Order creation initiated
-03 Apr 2024 10:26:33  devpinoyLogger User provided product is searched and selected
-03 Apr 2024 10:26:53  devpinoyLogger Required product selected and added to the cart
-03 Apr 2024 10:26:59  devpinoyLogger User provided product is searched and selected
-03 Apr 2024 10:27:26  devpinoyLogger Required product selected and added to the cart
-03 Apr 2024 10:27:39  devpinoyLogger -------------------Test Ended-------------------
-04 Apr 2024 10:44:25  devpinoyLogger -------------------Test Started-------------------
-04 Apr 2024 10:44:33  devpinoyLogger User logged in Successfully
-04 Apr 2024 10:45:01  devpinoyLogger Selected the particular date provided by User
-04 Apr 2024 10:45:02  devpinoyLogger Journey started for the provided calendar date
-04 Apr 2024 10:45:08  devpinoyLogger Order creation initiated
-04 Apr 2024 10:45:16  devpinoyLogger User provided product is searched and selected
-04 Apr 2024 10:45:37  devpinoyLogger Required product selected and added to the cart
-04 Apr 2024 10:45:42  devpinoyLogger User provided product is searched and selected
-04 Apr 2024 10:46:09  devpinoyLogger Required product selected and added to the cart
-04 Apr 2024 10:46:22  devpinoyLogger -------------------Test Ended-------------------
-04 Apr 2024 11:42:14  devpinoyLogger -------------------Test Started-------------------
-04 Apr 2024 11:42:23  devpinoyLogger User logged in Successfully
-04 Apr 2024 11:42:51  devpinoyLogger Selected the particular date provided by User
-04 Apr 2024 11:42:52  devpinoyLogger Journey started for the provided calendar date
-04 Apr 2024 11:42:58  devpinoyLogger Order creation initiated
-04 Apr 2024 11:43:05  devpinoyLogger User provided product is searched and selected
-04 Apr 2024 11:43:23  devpinoyLogger Required product selected and added to the cart
-04 Apr 2024 11:43:29  devpinoyLogger User provided product is searched and selected
-04 Apr 2024 11:43:50  devpinoyLogger Required product selected and added to the cart
-04 Apr 2024 11:43:52  devpinoyLogger clicked on cart to view the cart items
-04 Apr 2024 11:43:58  devpinoyLogger -------------------Test Ended-------------------
-04 Apr 2024 18:25:08  devpinoyLogger -------------------Test Started-------------------
-04 Apr 2024 18:25:16  devpinoyLogger User logged in Successfully
-04 Apr 2024 18:25:21  devpinoyLogger Accounts menu selected
-04 Apr 2024 18:25:25  devpinoyLogger Add New Account clicked on Account Details screen
-04 Apr 2024 18:25:28  devpinoyLogger Google map pop up selected
-04 Apr 2024 18:26:16  devpinoyLogger -------------------Test Ended-------------------
-04 Apr 2024 18:26:43  devpinoyLogger -------------------Test Started-------------------
-04 Apr 2024 18:26:51  devpinoyLogger User logged in Successfully
-04 Apr 2024 18:26:55  devpinoyLogger Accounts menu selected
-04 Apr 2024 18:27:00  devpinoyLogger Searched user provided Account and selected the same
-04 Apr 2024 18:27:10  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 10:40:28  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 10:40:35  devpinoyLogger User logged in Successfully
-05 Apr 2024 10:40:40  devpinoyLogger Accounts menu selected
-05 Apr 2024 10:40:45  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:40:56  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 10:43:05  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 10:43:39  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 10:43:46  devpinoyLogger User logged in Successfully
-05 Apr 2024 10:43:51  devpinoyLogger Accounts menu selected
-05 Apr 2024 10:43:56  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:44:07  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 10:46:57  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 10:47:04  devpinoyLogger User logged in Successfully
-05 Apr 2024 10:47:10  devpinoyLogger Accounts menu selected
-05 Apr 2024 10:47:13  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:47:15  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:47:16  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 10:56:36  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 10:56:42  devpinoyLogger User logged in Successfully
-05 Apr 2024 10:56:48  devpinoyLogger Accounts menu selected
-05 Apr 2024 10:56:51  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:57:02  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 10:58:42  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 10:58:49  devpinoyLogger User logged in Successfully
-05 Apr 2024 10:58:56  devpinoyLogger Accounts menu selected
-05 Apr 2024 10:59:03  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:59:11  devpinoyLogger Verified all the tabs
-05 Apr 2024 10:59:21  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 10:59:26  devpinoyLogger Verified all the tabs
-05 Apr 2024 10:59:30  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 11:18:31  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 11:18:41  devpinoyLogger User logged in Successfully
-05 Apr 2024 11:18:47  devpinoyLogger Accounts menu selected
-05 Apr 2024 11:18:53  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 11:19:01  devpinoyLogger Verified all the tabs
-05 Apr 2024 11:19:09  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 11:19:16  devpinoyLogger Verified all the tabs
-05 Apr 2024 11:19:20  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 14:49:39  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 14:49:47  devpinoyLogger User logged in Successfully
-05 Apr 2024 14:49:53  devpinoyLogger Accounts menu selected
-05 Apr 2024 14:49:59  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 14:50:06  devpinoyLogger Verified all the tabs
-05 Apr 2024 14:50:13  devpinoyLogger User logged out successfuly
-05 Apr 2024 14:50:26  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 14:51:02  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 14:51:19  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 14:51:28  devpinoyLogger User logged in Successfully
-05 Apr 2024 14:51:33  devpinoyLogger Accounts menu selected
-05 Apr 2024 14:51:40  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 14:51:46  devpinoyLogger Verified all the tabs
-05 Apr 2024 14:51:54  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 14:52:01  devpinoyLogger Verified all the tabs
-05 Apr 2024 14:52:10  devpinoyLogger User logged out successfuly
-05 Apr 2024 14:52:11  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 15:01:04  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 15:01:24  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 15:01:33  devpinoyLogger User logged in Successfully
-05 Apr 2024 15:01:39  devpinoyLogger Accounts menu selected
-05 Apr 2024 15:01:45  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 15:01:54  devpinoyLogger Verified all the tabs
-05 Apr 2024 15:02:03  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 15:02:11  devpinoyLogger Verified all the tabs
-05 Apr 2024 15:02:18  devpinoyLogger User logged out successfuly
-05 Apr 2024 15:02:19  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 15:02:48  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 15:03:25  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 15:03:33  devpinoyLogger User logged in Successfully
-05 Apr 2024 15:03:40  devpinoyLogger Accounts menu selected
-05 Apr 2024 15:03:44  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 15:03:47  devpinoyLogger Google map pop up selected
-05 Apr 2024 15:04:05  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 15:46:23  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 15:46:47  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 15:46:54  devpinoyLogger User logged in Successfully
-05 Apr 2024 15:47:01  devpinoyLogger Accounts menu selected
-05 Apr 2024 15:47:05  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 15:47:09  devpinoyLogger Google map pop up selected
-05 Apr 2024 15:47:52  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:18:50  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:18:58  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:19:04  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:19:08  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 16:19:11  devpinoyLogger Google map pop up selected
-05 Apr 2024 16:21:27  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:21:36  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:21:42  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:21:46  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 16:21:49  devpinoyLogger Google map pop up selected
-05 Apr 2024 16:22:26  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:23:27  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:23:36  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:23:42  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:23:46  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 16:23:49  devpinoyLogger Google map pop up selected
-05 Apr 2024 16:24:36  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:25:39  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:25:48  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:25:54  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:25:58  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 16:26:01  devpinoyLogger Google map pop up selected
-05 Apr 2024 16:26:44  devpinoyLogger New account created successfully
-05 Apr 2024 16:26:55  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:29:44  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:29:54  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:29:59  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:30:03  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 16:30:06  devpinoyLogger Google map pop up selected
-05 Apr 2024 16:30:53  devpinoyLogger New account created successfully
-05 Apr 2024 16:30:58  devpinoyLogger User logged out successfuly
-05 Apr 2024 16:30:58  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:32:01  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:32:08  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:32:14  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:32:19  devpinoyLogger Add New Account clicked on Account Details screen
-05 Apr 2024 16:32:24  devpinoyLogger Google map pop up selected
-05 Apr 2024 16:37:54  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:38:04  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:38:09  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:38:17  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:38:22  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:38:51  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:39:58  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:40:07  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:40:13  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:40:19  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:40:25  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:40:56  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:43:17  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:43:26  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:43:32  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:43:39  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:43:44  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:44:15  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:46:57  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:47:07  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:47:12  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:47:19  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:47:25  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:48:05  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:50:21  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:50:30  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:50:35  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:50:42  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:50:47  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:51:24  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:54:30  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:54:39  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:54:45  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:54:51  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:54:57  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:55:28  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 16:57:18  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 16:57:27  devpinoyLogger User logged in Successfully
-05 Apr 2024 16:57:33  devpinoyLogger Accounts menu selected
-05 Apr 2024 16:57:39  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 16:57:45  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 16:58:22  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:01:50  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:01:58  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:02:05  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:02:11  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:02:17  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:02:46  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:03:39  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:03:46  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:03:52  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:03:58  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:04:04  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:07:12  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:07:21  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:07:27  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:07:33  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:07:39  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:08:19  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:17:44  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:17:53  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:17:59  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:18:06  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:18:11  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:18:43  devpinoyLogger Account details edited and updated successfully
-05 Apr 2024 17:18:54  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:21:36  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:21:55  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:22:02  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:22:08  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:22:15  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:22:20  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:22:51  devpinoyLogger Account details edited and updated successfully
-05 Apr 2024 17:22:57  devpinoyLogger User logged out successfuly
-05 Apr 2024 17:23:09  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:25:58  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:26:07  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:26:14  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:26:21  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:26:26  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:26:56  devpinoyLogger Account details edited and updated successfully
-05 Apr 2024 17:27:08  devpinoyLogger -------------------Test Ended-------------------
-05 Apr 2024 17:27:57  devpinoyLogger -------------------Test Started-------------------
-05 Apr 2024 17:28:06  devpinoyLogger User logged in Successfully
-05 Apr 2024 17:28:12  devpinoyLogger Accounts menu selected
-05 Apr 2024 17:28:18  devpinoyLogger Searched user provided Account and selected the same
-05 Apr 2024 17:28:23  devpinoyLogger Edit Account Details clicked
-05 Apr 2024 17:28:54  devpinoyLogger Account details edited and updated successfully
-05 Apr 2024 17:29:06  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:18:02  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:18:29  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:19:08  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:20:11  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:20:34  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:21:44  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:22:21  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:22:57  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:23:12  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:29:20  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:29:45  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:31:43  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:32:55  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:33:01  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:33:36  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:34:41  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:35:53  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:36:12  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:37:23  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:38:07  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:39:11  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:39:51  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:43:24  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:46:35  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:47:37  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:48:51  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:50:10  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:50:16  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:50:35  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 11:59:57  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:01:26  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:01:31  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:01:49  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:02:19  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:02:45  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:11:56  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:14:07  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:15:03  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:16:35  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:17:42  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:19:46  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:27:33  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:28:25  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:31:34  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:38:25  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:43:07  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:43:50  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:48:23  devpinoyLogger -------------------Test Ended-------------------
-09 Apr 2024 12:48:28  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:18:12  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:25:38  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:33:13  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:42:52  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:48:16  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:55:11  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:56:46  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 11:59:12  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 12:41:51  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 13:03:40  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 13:07:39  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:02:36  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:07:01  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:07:56  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:09:43  devpinoyLogger -------------------Test Started-------------------
-10 Apr 2024 14:09:51  devpinoyLogger User logged in Successfully
-10 Apr 2024 14:10:01  devpinoyLogger User logged out successfuly
-10 Apr 2024 14:10:21  devpinoyLogger User logged in Successfully
-10 Apr 2024 14:10:30  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:14:45  devpinoyLogger -------------------Test Started-------------------
-10 Apr 2024 14:14:53  devpinoyLogger User logged in Successfully
-10 Apr 2024 14:14:58  devpinoyLogger Accounts menu selected
-10 Apr 2024 14:15:05  devpinoyLogger Searched user provided Account and selected the same
-10 Apr 2024 14:15:12  devpinoyLogger Verified all the tabs
-10 Apr 2024 14:15:28  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:16:10  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:16:56  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:16:56  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:18:10  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:18:26  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:19:19  devpinoyLogger -------------------Test Ended-------------------
-10 Apr 2024 14:24:00  devpinoyLogger -------------------Test Started-------------------
-10 Apr 2024 14:24:09  devpinoyLogger User logged in Successfully
-10 Apr 2024 14:24:14  devpinoyLogger Accounts menu selected
-10 Apr 2024 14:26:01  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 12:52:21  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 12:53:00  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 12:54:40  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 12:55:48  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 12:55:48  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 13:03:45  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 13:04:46  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 13:05:10  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 13:06:21  devpinoyLogger -------------------Test Ended-------------------
-14 Apr 2024 13:07:00  devpinoyLogger -------------------Test Started-------------------
-14 Apr 2024 13:07:10  devpinoyLogger User logged in Successfully
-14 Apr 2024 13:07:16  devpinoyLogger Accounts menu selected
-14 Apr 2024 13:07:22  devpinoyLogger Searched user provided Account and selected the same
-14 Apr 2024 13:07:27  devpinoyLogger Edit Account Details clicked
-14 Apr 2024 13:08:07  devpinoyLogger -------------------Test Ended-------------------
-16 Apr 2024 10:35:28  devpinoyLogger -------------------Test Started-------------------
-16 Apr 2024 10:35:38  devpinoyLogger User logged in Successfully
-16 Apr 2024 10:35:44  devpinoyLogger Accounts menu selected
-16 Apr 2024 10:35:49  devpinoyLogger Add New Account clicked on Account Details screen
-16 Apr 2024 10:35:59  devpinoyLogger -------------------Test Ended-------------------
-17 Apr 2024 18:08:38  devpinoyLogger -------------------Test Started-------------------
-17 Apr 2024 18:08:48  devpinoyLogger User logged in Successfully
-17 Apr 2024 18:08:54  devpinoyLogger Accounts menu selected
-17 Apr 2024 18:08:59  devpinoyLogger Add New Account clicked on Account Details screen
-17 Apr 2024 18:09:01  devpinoyLogger Google map pop up selected
-17 Apr 2024 18:09:21  devpinoyLogger -------------------Test Ended-------------------
-17 Apr 2024 18:21:18  devpinoyLogger -------------------Test Started-------------------
-17 Apr 2024 18:21:27  devpinoyLogger User logged in Successfully
-17 Apr 2024 18:21:33  devpinoyLogger Accounts menu selected
-17 Apr 2024 18:21:37  devpinoyLogger Add New Account clicked on Account Details screen
-17 Apr 2024 18:21:40  devpinoyLogger Google map pop up selected
-17 Apr 2024 18:22:03  devpinoyLogger -------------------Test Ended-------------------
-17 Apr 2024 18:24:17  devpinoyLogger -------------------Test Started-------------------
-17 Apr 2024 18:24:28  devpinoyLogger User logged in Successfully
-17 Apr 2024 18:24:34  devpinoyLogger Accounts menu selected
-17 Apr 2024 18:24:38  devpinoyLogger Add New Account clicked on Account Details screen
-17 Apr 2024 18:24:41  devpinoyLogger Google map pop up selected
-17 Apr 2024 18:26:30  devpinoyLogger -------------------Test Started-------------------
-17 Apr 2024 18:26:40  devpinoyLogger User logged in Successfully
-17 Apr 2024 18:26:46  devpinoyLogger Accounts menu selected
-17 Apr 2024 18:26:50  devpinoyLogger Add New Account clicked on Account Details screen
-17 Apr 2024 18:26:53  devpinoyLogger Google map pop up selected
-17 Apr 2024 18:27:15  devpinoyLogger -------------------Test Ended-------------------
-17 Apr 2024 18:28:22  devpinoyLogger -------------------Test Started-------------------
-17 Apr 2024 18:28:33  devpinoyLogger User logged in Successfully
-17 Apr 2024 18:28:39  devpinoyLogger Accounts menu selected
-17 Apr 2024 18:28:43  devpinoyLogger Add New Account clicked on Account Details screen
-17 Apr 2024 18:28:46  devpinoyLogger Google map pop up selected
-17 Apr 2024 18:29:02  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 10:41:22  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 10:41:32  devpinoyLogger User logged in Successfully
-19 Apr 2024 10:41:38  devpinoyLogger Accounts menu selected
-19 Apr 2024 10:41:42  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 10:41:45  devpinoyLogger Google map pop up selected
-19 Apr 2024 10:42:00  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 10:45:53  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 10:46:07  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 10:46:17  devpinoyLogger User logged in Successfully
-19 Apr 2024 10:46:23  devpinoyLogger Accounts menu selected
-19 Apr 2024 10:46:28  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 10:46:30  devpinoyLogger Google map pop up selected
-19 Apr 2024 10:46:48  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:06:55  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:07:02  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:07:33  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 11:07:44  devpinoyLogger User logged in Successfully
-19 Apr 2024 11:07:50  devpinoyLogger Accounts menu selected
-19 Apr 2024 11:07:55  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 11:07:57  devpinoyLogger Google map pop up selected
-19 Apr 2024 11:09:09  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:35:27  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:35:43  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:35:58  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:36:55  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 11:37:04  devpinoyLogger User logged in Successfully
-19 Apr 2024 11:37:11  devpinoyLogger Accounts menu selected
-19 Apr 2024 11:37:16  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 11:37:18  devpinoyLogger Google map pop up selected
-19 Apr 2024 11:37:44  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 11:59:43  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 11:59:53  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:00:01  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:00:06  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:00:08  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:08:33  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:08:44  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:08:50  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:08:55  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:08:58  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:14:45  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:14:55  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:15:02  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:15:07  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:15:09  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:18:00  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:18:11  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:18:17  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:18:22  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:18:24  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:19:17  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:20:24  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:20:34  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:20:40  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:20:45  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:20:47  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:21:40  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:23:56  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:24:07  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:24:13  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:24:18  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:24:20  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:25:39  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:25:50  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:25:55  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:26:00  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:26:02  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:26:46  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:28:46  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:28:56  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:29:01  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:29:06  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:29:08  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:29:57  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:30:34  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:30:36  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:30:42  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:31:24  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:31:25  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:32:14  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:32:29  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:32:30  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:34:00  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:34:01  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:35:10  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:35:12  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:46:24  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:46:25  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:53:46  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:53:56  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:54:04  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:54:08  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:54:12  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:54:22  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 12:57:36  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 12:57:46  devpinoyLogger User logged in Successfully
-19 Apr 2024 12:57:52  devpinoyLogger Accounts menu selected
-19 Apr 2024 12:57:57  devpinoyLogger Add New Account clicked on Account Details screen
-19 Apr 2024 12:57:59  devpinoyLogger Google map pop up selected
-19 Apr 2024 12:58:56  devpinoyLogger New account created successfully
-19 Apr 2024 12:59:02  devpinoyLogger User logged out successfuly
-19 Apr 2024 12:59:02  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 16:36:14  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 16:36:24  devpinoyLogger User logged in Successfully
-19 Apr 2024 16:36:31  devpinoyLogger Accounts menu selected
-19 Apr 2024 16:36:47  devpinoyLogger -------------------Test Ended-------------------
-19 Apr 2024 16:55:23  devpinoyLogger -------------------Test Started-------------------
-19 Apr 2024 16:55:33  devpinoyLogger User logged in Successfully
-19 Apr 2024 16:55:39  devpinoyLogger Accounts menu selected
-19 Apr 2024 16:55:46  devpinoyLogger Searched user provided Account and selected the same
-19 Apr 2024 16:55:56  devpinoyLogger Verified all the tabs
-19 Apr 2024 16:56:06  devpinoyLogger Searched user provided Account and selected the same
-19 Apr 2024 16:56:14  devpinoyLogger Verified all the tabs
-19 Apr 2024 16:56:22  devpinoyLogger User logged out successfuly
-19 Apr 2024 16:56:23  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:17:35  devpinoyLogger -------------------Test Started-------------------
-22 Apr 2024 16:17:44  devpinoyLogger User logged in Successfully
-22 Apr 2024 16:17:51  devpinoyLogger Accounts menu selected
-22 Apr 2024 16:17:56  devpinoyLogger Add New Account clicked on Account Details screen
-22 Apr 2024 16:18:00  devpinoyLogger Google map pop up selected
-22 Apr 2024 16:18:56  devpinoyLogger New account created successfully
-22 Apr 2024 16:19:01  devpinoyLogger User logged out successfuly
-22 Apr 2024 16:19:02  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:28:15  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:28:30  devpinoyLogger -------------------Test Started-------------------
-22 Apr 2024 16:28:41  devpinoyLogger User logged in Successfully
-22 Apr 2024 16:28:47  devpinoyLogger Accounts menu selected
-22 Apr 2024 16:28:53  devpinoyLogger Searched user provided Account and selected the same
-22 Apr 2024 16:29:01  devpinoyLogger Edit Account Details clicked
-22 Apr 2024 16:29:42  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:31:04  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:31:38  devpinoyLogger -------------------Test Started-------------------
-22 Apr 2024 16:31:48  devpinoyLogger User logged in Successfully
-22 Apr 2024 16:31:54  devpinoyLogger Accounts menu selected
-22 Apr 2024 16:32:01  devpinoyLogger Searched user provided Account and selected the same
-22 Apr 2024 16:32:09  devpinoyLogger Verified all the tabs
-22 Apr 2024 16:32:19  devpinoyLogger Searched user provided Account and selected the same
-22 Apr 2024 16:32:26  devpinoyLogger Verified all the tabs
-22 Apr 2024 16:32:33  devpinoyLogger User logged out successfuly
-22 Apr 2024 16:32:34  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:33:08  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 16:33:21  devpinoyLogger -------------------Test Started-------------------
-22 Apr 2024 16:33:32  devpinoyLogger User logged in Successfully
-22 Apr 2024 16:33:41  devpinoyLogger User logged out successfuly
-22 Apr 2024 16:34:18  devpinoyLogger User logged in Successfully
-22 Apr 2024 16:34:28  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 17:41:58  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 17:42:10  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 17:42:18  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 17:43:05  devpinoyLogger -------------------Test Ended-------------------
-22 Apr 2024 17:43:32  devpinoyLogger -------------------Test Started-------------------
-22 Apr 2024 17:43:42  devpinoyLogger User logged in Successfully
-22 Apr 2024 17:43:56  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 12:07:35  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 12:07:45  devpinoyLogger User logged in Successfully
-23 Apr 2024 12:07:51  devpinoyLogger Accounts menu selected
-23 Apr 2024 12:07:56  devpinoyLogger Add New Account clicked on Account Details screen
-23 Apr 2024 12:07:59  devpinoyLogger Google map pop up selected
-23 Apr 2024 12:08:54  devpinoyLogger New account created successfully
-23 Apr 2024 12:08:59  devpinoyLogger User logged out successfuly
-23 Apr 2024 12:09:00  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 12:11:01  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:03:00  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:03:09  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:03:16  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:03:16  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:21:56  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:22:13  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:22:24  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:22:29  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:22:30  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:24:00  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:25:25  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:25:36  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:25:42  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:25:42  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:33:30  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:33:35  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:33:53  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:34:03  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:34:09  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:34:10  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:36:28  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:36:39  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:36:45  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:36:51  devpinoyLogger Searched user provided Account and selected the same
-23 Apr 2024 14:37:05  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:40:09  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:40:19  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:40:26  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:40:32  devpinoyLogger Searched user provided Account and selected the same
-23 Apr 2024 14:40:45  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:44:35  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:44:46  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:44:52  devpinoyLogger Accounts menu selected
-23 Apr 2024 14:44:58  devpinoyLogger Searched user provided Account and selected the same
-23 Apr 2024 14:45:21  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:57:49  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:57:59  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:58:12  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:58:42  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 14:58:52  devpinoyLogger User logged in Successfully
-23 Apr 2024 14:59:04  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 14:59:56  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 15:00:06  devpinoyLogger User logged in Successfully
-23 Apr 2024 15:00:19  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 15:01:09  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 15:01:19  devpinoyLogger User logged in Successfully
-23 Apr 2024 15:01:32  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 15:12:03  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 15:12:12  devpinoyLogger User logged in Successfully
-23 Apr 2024 15:12:25  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 15:13:44  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 15:13:54  devpinoyLogger User logged in Successfully
-23 Apr 2024 15:14:07  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 15:22:40  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 15:22:51  devpinoyLogger User logged in Successfully
-23 Apr 2024 15:23:04  devpinoyLogger -------------------Test Ended-------------------
-23 Apr 2024 16:22:52  devpinoyLogger -------------------Test Started-------------------
-23 Apr 2024 16:23:03  devpinoyLogger User logged in Successfully
-23 Apr 2024 16:23:09  devpinoyLogger Accounts menu selected
-23 Apr 2024 16:23:16  devpinoyLogger Searched user provided Account and selected the same
-23 Apr 2024 16:23:36  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 10:46:54  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 10:47:03  devpinoyLogger User logged in Successfully
-16 May 2024 10:47:24  devpinoyLogger User logged in Successfully
-16 May 2024 10:47:45  devpinoyLogger User logged in Successfully
-16 May 2024 10:48:00  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 15:42:09  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 15:42:18  devpinoyLogger User logged in Successfully
-16 May 2024 15:54:56  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 15:55:06  devpinoyLogger User logged in Successfully
-16 May 2024 15:55:15  devpinoyLogger User logged out successfuly
-16 May 2024 15:55:33  devpinoyLogger User logged in Successfully
-16 May 2024 15:55:42  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 15:58:46  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 15:58:57  devpinoyLogger User logged in Successfully
-16 May 2024 15:59:07  devpinoyLogger User logged out successfuly
-16 May 2024 15:59:25  devpinoyLogger User logged in Successfully
-16 May 2024 15:59:34  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:02:30  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:02:41  devpinoyLogger User logged in Successfully
-16 May 2024 16:02:46  devpinoyLogger Accounts menu selected
-16 May 2024 16:02:51  devpinoyLogger Add New Account clicked on Account Details screen
-16 May 2024 16:02:53  devpinoyLogger Google map pop up selected
-16 May 2024 16:03:36  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:13:39  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:13:49  devpinoyLogger User logged in Successfully
-16 May 2024 16:13:55  devpinoyLogger Accounts menu selected
-16 May 2024 16:14:00  devpinoyLogger Add New Account clicked on Account Details screen
-16 May 2024 16:14:03  devpinoyLogger Google map pop up selected
-16 May 2024 16:17:17  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:17:27  devpinoyLogger User logged in Successfully
-16 May 2024 16:17:33  devpinoyLogger Accounts menu selected
-16 May 2024 16:17:38  devpinoyLogger Add New Account clicked on Account Details screen
-16 May 2024 16:17:40  devpinoyLogger Google map pop up selected
-16 May 2024 16:18:34  devpinoyLogger New account created successfully
-16 May 2024 16:18:39  devpinoyLogger User logged out successfuly
-16 May 2024 16:18:40  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:21:21  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:21:32  devpinoyLogger User logged in Successfully
-16 May 2024 16:21:37  devpinoyLogger Accounts menu selected
-16 May 2024 16:21:51  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:23:36  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:23:47  devpinoyLogger User logged in Successfully
-16 May 2024 16:23:52  devpinoyLogger Accounts menu selected
-16 May 2024 16:23:59  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:24:06  devpinoyLogger Edit Account Details clicked
-16 May 2024 16:24:45  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:25:48  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:25:59  devpinoyLogger User logged in Successfully
-16 May 2024 16:26:04  devpinoyLogger Accounts menu selected
-16 May 2024 16:26:10  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:26:16  devpinoyLogger Edit Account Details clicked
-16 May 2024 16:26:46  devpinoyLogger Account details edited and updated successfully
-16 May 2024 16:26:58  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:52:35  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:52:45  devpinoyLogger User logged in Successfully
-16 May 2024 16:52:51  devpinoyLogger Accounts menu selected
-16 May 2024 16:52:57  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:53:03  devpinoyLogger Edit Account Details clicked
-16 May 2024 16:53:35  devpinoyLogger Account details edited and updated successfully
-16 May 2024 16:55:53  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:56:03  devpinoyLogger User logged in Successfully
-16 May 2024 16:56:08  devpinoyLogger Accounts menu selected
-16 May 2024 16:56:14  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:56:20  devpinoyLogger Edit Account Details clicked
-16 May 2024 16:56:52  devpinoyLogger Account details edited and updated successfully
-16 May 2024 16:56:57  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:57:07  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:57:35  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 16:57:50  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 16:57:59  devpinoyLogger User logged in Successfully
-16 May 2024 16:58:05  devpinoyLogger Accounts menu selected
-16 May 2024 16:58:11  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:58:17  devpinoyLogger Edit Account Details clicked
-16 May 2024 16:58:50  devpinoyLogger Account details edited and updated successfully
-16 May 2024 16:58:54  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 16:59:05  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 17:09:48  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 17:09:58  devpinoyLogger User logged in Successfully
-16 May 2024 17:10:04  devpinoyLogger Accounts menu selected
-16 May 2024 17:10:10  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:10:16  devpinoyLogger Edit Account Details clicked
-16 May 2024 17:10:49  devpinoyLogger Account details edited and updated successfully
-16 May 2024 17:10:54  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:14:18  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 17:14:29  devpinoyLogger User logged in Successfully
-16 May 2024 17:14:35  devpinoyLogger Accounts menu selected
-16 May 2024 17:14:41  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:14:48  devpinoyLogger Edit Account Details clicked
-16 May 2024 17:15:21  devpinoyLogger Account details edited and updated successfully
-16 May 2024 17:15:25  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:15:38  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 17:23:33  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 17:23:43  devpinoyLogger User logged in Successfully
-16 May 2024 17:23:50  devpinoyLogger Accounts menu selected
-16 May 2024 17:23:57  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:23:58  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 17:25:03  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 17:25:13  devpinoyLogger User logged in Successfully
-16 May 2024 17:25:19  devpinoyLogger Accounts menu selected
-16 May 2024 17:25:26  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:25:31  devpinoyLogger Edit Account Details clicked
-16 May 2024 17:26:04  devpinoyLogger Account details edited and updated successfully
-16 May 2024 17:26:08  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 17:26:19  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 18:05:31  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 18:05:42  devpinoyLogger User logged in Successfully
-16 May 2024 18:05:48  devpinoyLogger Accounts menu selected
-16 May 2024 18:05:54  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 18:05:59  devpinoyLogger Edit Account Details clicked
-16 May 2024 18:06:32  devpinoyLogger Account details edited and updated successfully
-16 May 2024 18:06:39  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 18:06:44  devpinoyLogger Edit Account Details clicked
-16 May 2024 18:07:16  devpinoyLogger Account details edited and updated successfully
-16 May 2024 18:07:21  devpinoyLogger User logged out successfuly
-16 May 2024 18:07:22  devpinoyLogger -------------------Test Ended-------------------
-16 May 2024 18:11:03  devpinoyLogger -------------------Test Started-------------------
-16 May 2024 18:11:13  devpinoyLogger User logged in Successfully
-16 May 2024 18:11:19  devpinoyLogger Accounts menu selected
-16 May 2024 18:11:25  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 18:12:44  devpinoyLogger Verified all the tabs
-16 May 2024 18:12:53  devpinoyLogger Searched user provided Account and selected the same
-16 May 2024 18:14:17  devpinoyLogger Verified all the tabs
-16 May 2024 18:14:24  devpinoyLogger User logged out successfuly
-16 May 2024 18:14:25  devpinoyLogger -------------------Test Ended-------------------
+17 May 2024 10:47:04  devpinoyLogger -------------------Test Started-------------------
+17 May 2024 10:47:15  devpinoyLogger User logged in Successfully
+17 May 2024 10:47:24  devpinoyLogger User logged out successfuly
+17 May 2024 10:47:42  devpinoyLogger User logged in Successfully
+17 May 2024 10:47:52  devpinoyLogger -------------------Test Ended-------------------
+17 May 2024 10:47:59  devpinoyLogger -------------------Test Started-------------------
+17 May 2024 10:48:09  devpinoyLogger User logged in Successfully
+17 May 2024 10:48:15  devpinoyLogger Accounts menu selected
+17 May 2024 10:48:21  devpinoyLogger Searched user provided Account and selected the same
+17 May 2024 10:48:37  devpinoyLogger -------------------Test Ended-------------------
+17 May 2024 10:48:42  devpinoyLogger -------------------Test Started-------------------
+17 May 2024 10:48:53  devpinoyLogger User logged in Successfully
+17 May 2024 10:48:59  devpinoyLogger Accounts menu selected
+17 May 2024 10:49:04  devpinoyLogger Add New Account clicked on Account Details screen
+17 May 2024 10:49:06  devpinoyLogger Google map pop up selected
+17 May 2024 10:49:59  devpinoyLogger New account created successfully
+17 May 2024 10:50:05  devpinoyLogger User logged out successfuly
+17 May 2024 10:50:05  devpinoyLogger -------------------Test Ended-------------------
+17 May 2024 10:50:13  devpinoyLogger -------------------Test Started-------------------
+17 May 2024 10:50:23  devpinoyLogger User logged in Successfully
+17 May 2024 10:50:29  devpinoyLogger Accounts menu selected
+17 May 2024 10:50:35  devpinoyLogger Searched user provided Account and selected the same
+17 May 2024 10:50:40  devpinoyLogger Edit Account Details clicked
+17 May 2024 10:51:13  devpinoyLogger Account details edited and updated successfully
+17 May 2024 10:51:20  devpinoyLogger Searched user provided Account and selected the same
+17 May 2024 10:51:24  devpinoyLogger Edit Account Details clicked
+17 May 2024 10:51:56  devpinoyLogger Account details edited and updated successfully
+17 May 2024 10:52:01  devpinoyLogger User logged out successfuly
+17 May 2024 10:52:02  devpinoyLogger -------------------Test Ended-------------------
+17 May 2024 10:55:16  devpinoyLogger -------------------Test Ended-------------------
+17 May 2024 10:55:31  devpinoyLogger -------------------Test Started-------------------
+17 May 2024 10:55:42  devpinoyLogger User logged in Successfully
+17 May 2024 10:55:48  devpinoyLogger Accounts menu selected
+17 May 2024 10:55:54  devpinoyLogger Searched user provided Account and selected the same
+17 May 2024 10:57:13  devpinoyLogger Verified all the tabs
+17 May 2024 10:57:22  devpinoyLogger Searched user provided Account and selected the same
+17 May 2024 10:58:46  devpinoyLogger Verified all the tabs
+17 May 2024 10:58:54  devpinoyLogger User logged out successfuly
+17 May 2024 10:58:54  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 14:58:39  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:00:01  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:00:23  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:02:56  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:03:09  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:03:22  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:10:36  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:10:50  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:11:03  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:18:37  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:18:51  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:18:56  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:18:59  devpinoyLogger Home menu selected
+17 Jun 2024 15:19:10  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:24:00  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:24:14  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:24:18  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:24:23  devpinoyLogger Home menu selected
+17 Jun 2024 15:24:33  devpinoyLogger User logged out successfuly
+17 Jun 2024 15:24:34  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:27:11  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:27:24  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:27:29  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:27:33  devpinoyLogger Attendance menu selected
+17 Jun 2024 15:27:46  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:29:42  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:29:56  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:30:00  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:30:05  devpinoyLogger Attendance menu selected
+17 Jun 2024 15:30:17  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:33:39  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:33:53  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:33:58  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:34:03  devpinoyLogger Attendance menu selected
+17 Jun 2024 15:34:18  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:43:24  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:43:38  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:43:43  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:43:47  devpinoyLogger Attendance menu selected
+17 Jun 2024 15:44:02  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:55:26  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:55:40  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:55:45  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:55:49  devpinoyLogger Attendance menu selected
+17 Jun 2024 15:56:08  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 15:58:57  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 15:59:10  devpinoyLogger User logged in Successfully
+17 Jun 2024 15:59:16  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 15:59:20  devpinoyLogger Attendance menu selected
+17 Jun 2024 15:59:56  devpinoyLogger User logged out successfuly
+17 Jun 2024 15:59:56  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:06:44  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 16:06:57  devpinoyLogger User logged in Successfully
+17 Jun 2024 16:07:10  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:08:34  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:08:56  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 16:09:10  devpinoyLogger User logged in Successfully
+17 Jun 2024 16:09:14  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 16:09:18  devpinoyLogger Accounts menu selected
+17 Jun 2024 16:09:25  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 16:09:54  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:17:45  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:18:01  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 16:18:15  devpinoyLogger User logged in Successfully
+17 Jun 2024 16:18:19  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 16:18:23  devpinoyLogger Accounts menu selected
+17 Jun 2024 16:18:29  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 16:18:50  devpinoyLogger Check-Out done and navigated to No Orders
+17 Jun 2024 16:19:18  devpinoyLogger Verified all the tabs
+17 Jun 2024 16:19:34  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:38:06  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 16:38:18  devpinoyLogger User logged in Successfully
+17 Jun 2024 16:38:24  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 16:38:28  devpinoyLogger Accounts menu selected
+17 Jun 2024 16:38:34  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 16:39:19  devpinoyLogger Verified all the tabs
+17 Jun 2024 16:39:36  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:51:10  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 16:51:23  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 16:51:37  devpinoyLogger User logged in Successfully
+17 Jun 2024 16:51:42  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 16:51:46  devpinoyLogger Accounts menu selected
+17 Jun 2024 16:51:54  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 16:52:39  devpinoyLogger Verified all the tabs
+17 Jun 2024 16:52:50  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 16:59:06  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 16:59:19  devpinoyLogger User logged in Successfully
+17 Jun 2024 16:59:24  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 16:59:28  devpinoyLogger Accounts menu selected
+17 Jun 2024 16:59:36  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:00:22  devpinoyLogger Verified all the tabs
+17 Jun 2024 17:00:32  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:00:43  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:04:17  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:04:32  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:04:44  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:04:49  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:04:53  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:05:01  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:05:47  devpinoyLogger Verified all the tabs
+17 Jun 2024 17:05:56  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:06:41  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:11:11  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:11:25  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:11:39  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:11:44  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:11:48  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:11:53  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:12:04  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:14:31  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:14:44  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:14:49  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:14:52  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:14:57  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:15:11  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:25:22  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:25:35  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:25:41  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:25:45  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:25:50  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:26:45  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:29:09  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:29:22  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:29:28  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:29:32  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:29:37  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:33:39  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:33:52  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:33:58  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:34:01  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:34:06  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:35:07  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:36:34  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:36:48  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:36:54  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:36:58  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:37:02  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:38:02  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:45:40  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:45:53  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:45:59  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:46:04  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:46:08  devpinoyLogger Add New Account clicked on Account Details screen
+17 Jun 2024 17:47:05  devpinoyLogger New account created successfully
+17 Jun 2024 17:47:11  devpinoyLogger User logged out successfuly
+17 Jun 2024 17:47:12  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:51:46  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:51:59  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:52:04  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:52:08  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:52:18  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:52:25  devpinoyLogger Edit Account Details clicked
+17 Jun 2024 17:53:08  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:55:26  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:55:39  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:55:45  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:55:49  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:55:58  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:56:06  devpinoyLogger Edit Account Details clicked
+17 Jun 2024 17:56:51  devpinoyLogger -------------------Test Ended-------------------
+17 Jun 2024 17:58:33  devpinoyLogger -------------------Test Started-------------------
+17 Jun 2024 17:58:46  devpinoyLogger User logged in Successfully
+17 Jun 2024 17:58:52  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+17 Jun 2024 17:58:56  devpinoyLogger Accounts menu selected
+17 Jun 2024 17:59:05  devpinoyLogger Searched user provided Account and selected the same
+17 Jun 2024 17:59:13  devpinoyLogger Edit Account Details clicked
+17 Jun 2024 17:59:48  devpinoyLogger Account details edited and updated successfully
+17 Jun 2024 17:59:53  devpinoyLogger -------------------Test Ended-------------------
