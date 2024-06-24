@@ -102,12 +102,12 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
 	return driver.findElement(By.xpath(element));
     }
        
-    public void calenderScrollRight() {   
-    	calenderScroll(calendersection,936,474,100,474);
+    public void calenderScrollRight() throws InterruptedException {   
+    	calenderScroll(calendersection,973,404,99,404);
     }
     
-    public void calenderScrollLeft() {
-    	calenderScroll(calendersection,100,474,936,474);
+    public void calenderScrollLeft() throws InterruptedException {
+    	calenderScroll(calendersection,99,404,973,404);
     }
     
     public void calenderAction() throws IOException, InterruptedException  {   
@@ -142,18 +142,17 @@ public class Page_JourneyCalendar extends Util_AndroidActions {
     	updateLog().debug("Selected the particular date provided by User");
    	}	
     
-    public void startJourney() throws InterruptedException, IOException {
+    public void startJourney(String text) throws InterruptedException, IOException {
     	calenderAction();
     	for(int i=0;i<journeys.size();i++) {
-    		if(journeys.get(i).getAttribute("content-desc").contains("Not Started")) {
-				journeys.get(i).click();				
-				Thread.sleep(1000);
-			}else {
-				journeys.get(0).click();
-				Thread.sleep(2000);
-			}
-    	}
-				
+    		if(journeys.get(i).getAttribute("content-desc").contains("text")) {
+				journeys.get(i).click();	
+				updateLog().debug("Checked not started journey");
+				break;
+			}else if(journeys.size()>5) {
+				scrollActionsSpecified("down",5.0,114,830,200,200);
+    		}
+    	}			
     	Thread.sleep(1000);
     	updateLog().debug("Journey started for the provided calendar date");
     }  

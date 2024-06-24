@@ -14,11 +14,11 @@ import io.appium.java_client.touch.offset.PointOption;
 public class Util_AndroidActions extends Util_AppiumConfig{
 	AndroidDriver driver;
 	public Util_AndroidActions(AndroidDriver driver)
-	{
+	{	
 		this.driver = driver;
 	}
 
-    public void calenderScroll(WebElement element, int startX, int startY, int endX, int endY) {   
+    public void calenderScroll(WebElement element, int startX, int startY, int endX, int endY) throws InterruptedException {   
         new TouchAction<>(driver)
         .press(PointOption.point(startX, startY))
         .moveTo(PointOption.point(endX, endY))
@@ -35,6 +35,14 @@ public class Util_AndroidActions extends Util_AppiumConfig{
 	public void scrollActionsRandom(String direction, double percent) {
 		((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
 			    "left", 100, "top", 100, "width", 200, "height", 200,
+			    "direction", direction,//up, down,left, right
+			    "percent", percent
+			));
+	}
+	
+	public void scrollActionsSpecified(String direction, double percent, int x, int y, int pix1, int pix2) {
+		((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
+			    "left", x, "top", y, "width", pix1, "height", pix2,
 			    "direction", direction,//up, down,left, right
 			    "percent", percent
 			));

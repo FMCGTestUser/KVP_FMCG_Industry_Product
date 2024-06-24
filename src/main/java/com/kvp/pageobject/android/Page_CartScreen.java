@@ -17,7 +17,10 @@ public class Page_CartScreen extends Util_AndroidActions {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	@AndroidFindBy(xpath = "//android.widget.ImageView/android.view.View[1]")
+	@AndroidFindBy(xpath = "//android.widget.ImageView/android.view.View[]")
+	private List<WebElement> editCartItem;
+	
+	@AndroidFindBy(xpath = "//android.widget.ImageView/android.view.View[2]")
 	private List<WebElement> deleteCartItem;
 	
 	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Yes\"]")
@@ -25,38 +28,22 @@ public class Page_CartScreen extends Util_AndroidActions {
 	
 	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"No\"]")
 	private WebElement popUpNo;
-	
-	@AndroidFindBy(xpath = "//android.widget.ImageView/android.view.View[2]")
-	private List<WebElement> reduceQty;
-	
-	@AndroidFindBy(xpath = "//android.widget.ImageView/android.view.View[3]")
-	private List<WebElement> increaseQty;
 		
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Apply Product Schemes\"]")
-	private List<WebElement> productSchemes;
+	private List<WebElement> viewProductSchemes;
 	
 	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Add More Products\"]")
-	private WebElement addMore;
+	private WebElement addMoreProduct;
 	 
-    @AndroidFindBy(xpath = "//android.view.View/android.view.View[2]/android.view.View[4]")
-    private WebElement deleteScheme;
-    	   
-    @AndroidFindBy(xpath = "//android.view.View/android.widget.ImageView")
-    private WebElement applyScheme;
-    
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"View Eligible Schemes\"]")
+    private WebElement viewOrderSchemes;
+	
     @AndroidFindBy(xpath = "//android.view.View/android.widget.Button")//navigate back and Place order
 	private List<WebElement> buttons;
     
     public void modifyCart() throws InterruptedException {
     for(int i=0;i<deleteCartItem.size();i++) {
-    	increaseQty.get(i).click();
-    	Thread.sleep(1000);
-    	increaseQty.get(i).click();
-    	Thread.sleep(1000);
-    	reduceQty.get(i).click();
-    	productSchemes.get(i).click();
-    	driver.switchTo().defaultContent();
-    	deleteCartItem.get(0).click();
+    	deleteCartItem.get(i).click();
     	if(i==0) {
     		popUpYes.click();
     	}else {
@@ -65,16 +52,20 @@ public class Page_CartScreen extends Util_AndroidActions {
     }    	
 	}
     
+    public void editCart() {
+   
+	}
+    
     public void addMoreProduct() {
-    	addMore.click();
+    	addMoreProduct.click();
 	}
     
     public void removeScheme() {
-    	deleteScheme.click();
+    	
 	}
     
     public void applyScheme() {// full implementation not done.
-    	applyScheme.click();
+    
 	}
     
 	public void navigateBack() {

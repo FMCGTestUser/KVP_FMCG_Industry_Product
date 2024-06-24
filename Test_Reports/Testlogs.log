@@ -205,3 +205,373 @@
 17 Jun 2024 17:59:13  devpinoyLogger Edit Account Details clicked
 17 Jun 2024 17:59:48  devpinoyLogger Account details edited and updated successfully
 17 Jun 2024 17:59:53  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 15:05:52  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 15:05:53  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 15:05:54  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 15:05:55  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 15:07:45  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 15:07:47  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 15:20:23  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 15:20:50  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 15:20:52  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 15:44:15  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 15:44:29  devpinoyLogger User logged in Successfully
+19 Jun 2024 15:44:33  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 15:44:35  devpinoyLogger Journey menu selected
+19 Jun 2024 15:57:10  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 15:57:24  devpinoyLogger User logged in Successfully
+19 Jun 2024 15:57:29  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 15:57:30  devpinoyLogger Journey menu selected
+19 Jun 2024 16:00:44  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:00:57  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:01:02  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:01:03  devpinoyLogger Journey menu selected
+19 Jun 2024 16:08:56  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:09:11  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:09:15  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:09:16  devpinoyLogger Journey menu selected
+19 Jun 2024 16:14:35  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:14:48  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:14:53  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:14:55  devpinoyLogger Journey menu selected
+19 Jun 2024 16:15:30  devpinoyLogger Selected the particular date provided by User
+19 Jun 2024 16:15:33  devpinoyLogger Journey started for the provided calendar date
+19 Jun 2024 16:15:43  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 16:18:48  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:19:02  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:19:07  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:19:08  devpinoyLogger Journey menu selected
+19 Jun 2024 16:19:34  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 16:21:54  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:22:08  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:22:12  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:22:13  devpinoyLogger Journey menu selected
+19 Jun 2024 16:26:24  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:26:37  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:26:43  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:26:44  devpinoyLogger Journey menu selected
+19 Jun 2024 16:27:58  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:28:11  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:28:16  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:28:18  devpinoyLogger Journey menu selected
+19 Jun 2024 16:28:30  devpinoyLogger Selected the particular date provided by User
+19 Jun 2024 16:31:03  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:31:17  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:31:22  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:31:23  devpinoyLogger Journey menu selected
+19 Jun 2024 16:34:59  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:35:12  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:35:16  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:35:18  devpinoyLogger Journey menu selected
+19 Jun 2024 16:40:01  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:40:14  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:40:19  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:40:21  devpinoyLogger Journey menu selected
+19 Jun 2024 16:44:28  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:44:41  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:44:45  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:44:47  devpinoyLogger Journey menu selected
+19 Jun 2024 16:47:36  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:47:50  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:47:54  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:47:56  devpinoyLogger Journey menu selected
+19 Jun 2024 16:54:16  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 16:54:28  devpinoyLogger User logged in Successfully
+19 Jun 2024 16:54:33  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 16:54:35  devpinoyLogger Journey menu selected
+19 Jun 2024 17:06:35  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:06:48  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:06:53  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:06:54  devpinoyLogger Journey menu selected
+19 Jun 2024 17:08:02  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:08:16  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:08:20  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:08:22  devpinoyLogger Journey menu selected
+19 Jun 2024 17:16:38  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:16:52  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:16:57  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:16:59  devpinoyLogger Journey menu selected
+19 Jun 2024 17:17:42  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:32:21  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:32:34  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:32:39  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:32:41  devpinoyLogger Journey menu selected
+19 Jun 2024 17:33:02  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:34:53  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:35:07  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:35:11  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:35:13  devpinoyLogger Journey menu selected
+19 Jun 2024 17:35:42  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:42:36  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:42:49  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:42:55  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:42:57  devpinoyLogger Journey menu selected
+19 Jun 2024 17:43:18  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:49:07  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:49:21  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:49:25  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:49:27  devpinoyLogger Journey menu selected
+19 Jun 2024 17:49:36  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:53:11  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:53:25  devpinoyLogger User logged in Successfully
+19 Jun 2024 17:53:29  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 17:53:30  devpinoyLogger Journey menu selected
+19 Jun 2024 17:53:53  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:58:37  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 17:59:26  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:59:27  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 17:59:28  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:00:23  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:00:24  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:01:12  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:01:15  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:01:59  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:02:01  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:06:19  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:06:32  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:06:37  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:06:38  devpinoyLogger Journey menu selected
+19 Jun 2024 18:07:05  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:09:28  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:09:40  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:09:46  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:09:47  devpinoyLogger Journey menu selected
+19 Jun 2024 18:10:05  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:21:19  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:21:32  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:21:38  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:21:40  devpinoyLogger Journey menu selected
+19 Jun 2024 18:21:55  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:29:06  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:29:29  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:29:42  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:29:48  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:29:50  devpinoyLogger Journey menu selected
+19 Jun 2024 18:30:06  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:31:36  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:32:04  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:32:17  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:32:22  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:32:24  devpinoyLogger Journey menu selected
+19 Jun 2024 18:33:01  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:38:00  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:38:13  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:38:19  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:38:20  devpinoyLogger Journey menu selected
+19 Jun 2024 18:38:35  devpinoyLogger Selected the particular date provided by User
+19 Jun 2024 18:38:40  devpinoyLogger Journey started for the provided calendar date
+19 Jun 2024 18:38:50  devpinoyLogger -------------------Test Ended-------------------
+19 Jun 2024 18:39:14  devpinoyLogger -------------------Test Started-------------------
+19 Jun 2024 18:39:29  devpinoyLogger User logged in Successfully
+19 Jun 2024 18:39:34  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+19 Jun 2024 18:39:35  devpinoyLogger Journey menu selected
+19 Jun 2024 18:39:50  devpinoyLogger Selected the particular date provided by User
+19 Jun 2024 18:39:54  devpinoyLogger Journey started for the provided calendar date
+19 Jun 2024 18:40:04  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 15:18:01  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 15:18:13  devpinoyLogger User logged in Successfully
+20 Jun 2024 15:18:18  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 15:18:20  devpinoyLogger Journey menu selected
+20 Jun 2024 15:18:35  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 15:18:38  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 15:18:42  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 15:20:19  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 15:20:33  devpinoyLogger User logged in Successfully
+20 Jun 2024 15:20:38  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 15:20:39  devpinoyLogger Journey menu selected
+20 Jun 2024 15:20:54  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 15:20:57  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 15:21:07  devpinoyLogger Check-In done successfully
+20 Jun 2024 15:21:10  devpinoyLogger Order creation initiated
+20 Jun 2024 15:21:18  devpinoyLogger User provided product is searched and selected
+20 Jun 2024 15:21:29  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 15:22:03  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 15:22:17  devpinoyLogger User logged in Successfully
+20 Jun 2024 15:22:21  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 15:22:23  devpinoyLogger Journey menu selected
+20 Jun 2024 15:22:38  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 15:22:40  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 15:22:51  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 15:55:46  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 15:55:59  devpinoyLogger User logged in Successfully
+20 Jun 2024 15:56:04  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 15:56:06  devpinoyLogger Journey menu selected
+20 Jun 2024 15:56:21  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 15:56:32  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 15:56:42  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 15:57:55  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 15:58:09  devpinoyLogger User logged in Successfully
+20 Jun 2024 15:58:13  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 15:58:15  devpinoyLogger Journey menu selected
+20 Jun 2024 15:58:30  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 15:58:30  devpinoyLogger No pending journeys for given calendar date
+20 Jun 2024 15:58:31  devpinoyLogger No pending journeys for given calendar date
+20 Jun 2024 15:58:31  devpinoyLogger No pending journeys for given calendar date
+20 Jun 2024 15:58:33  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 15:58:44  devpinoyLogger Check-In done successfully
+20 Jun 2024 15:58:55  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 16:21:49  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 16:22:03  devpinoyLogger User logged in Successfully
+20 Jun 2024 16:22:07  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 16:22:09  devpinoyLogger Journey menu selected
+20 Jun 2024 16:22:23  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 16:22:25  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 16:22:36  devpinoyLogger Check-In done successfully
+20 Jun 2024 16:22:39  devpinoyLogger Order creation initiated
+20 Jun 2024 16:22:47  devpinoyLogger User provided product is searched and selected
+20 Jun 2024 16:22:58  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 18:33:48  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 18:34:02  devpinoyLogger User logged in Successfully
+20 Jun 2024 18:34:07  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 18:34:09  devpinoyLogger Journey menu selected
+20 Jun 2024 18:34:24  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 18:34:27  devpinoyLogger -------------------Test Ended-------------------
+20 Jun 2024 18:38:21  devpinoyLogger -------------------Test Started-------------------
+20 Jun 2024 18:38:34  devpinoyLogger User logged in Successfully
+20 Jun 2024 18:38:39  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+20 Jun 2024 18:38:41  devpinoyLogger Journey menu selected
+20 Jun 2024 18:38:56  devpinoyLogger Selected the particular date provided by User
+20 Jun 2024 18:39:00  devpinoyLogger Journey started for the provided calendar date
+20 Jun 2024 18:39:11  devpinoyLogger Check-In done successfully
+20 Jun 2024 18:39:16  devpinoyLogger Order creation initiated
+20 Jun 2024 18:39:23  devpinoyLogger User provided product is searched and selected
+20 Jun 2024 18:39:48  devpinoyLogger -------------------Test Ended-------------------
+21 Jun 2024 10:41:06  devpinoyLogger -------------------Test Started-------------------
+21 Jun 2024 10:41:20  devpinoyLogger User logged in Successfully
+21 Jun 2024 10:42:31  devpinoyLogger -------------------Test Started-------------------
+21 Jun 2024 10:42:45  devpinoyLogger User logged in Successfully
+21 Jun 2024 10:42:52  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+21 Jun 2024 10:42:57  devpinoyLogger User logged out successfuly
+21 Jun 2024 10:43:10  devpinoyLogger User logged in Successfully
+21 Jun 2024 10:43:36  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 11:20:16  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 11:20:30  devpinoyLogger User logged in Successfully
+24 Jun 2024 11:20:36  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 11:20:38  devpinoyLogger Journey menu selected
+24 Jun 2024 11:20:57  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 11:21:02  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 11:21:12  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 12:27:12  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 12:27:26  devpinoyLogger User logged in Successfully
+24 Jun 2024 12:27:32  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 12:27:33  devpinoyLogger Journey menu selected
+24 Jun 2024 12:27:53  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 12:28:00  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 12:28:11  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 13:54:44  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 13:54:58  devpinoyLogger User logged in Successfully
+24 Jun 2024 13:55:03  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 13:55:05  devpinoyLogger Journey menu selected
+24 Jun 2024 13:55:25  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 13:55:33  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 13:55:44  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 13:58:54  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 13:59:09  devpinoyLogger User logged in Successfully
+24 Jun 2024 13:59:13  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 13:59:15  devpinoyLogger Journey menu selected
+24 Jun 2024 13:59:34  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 13:59:43  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 14:01:38  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 14:01:53  devpinoyLogger User logged in Successfully
+24 Jun 2024 14:01:58  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 14:02:00  devpinoyLogger Journey menu selected
+24 Jun 2024 14:02:19  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 14:02:28  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 14:02:44  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 14:07:37  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 14:07:51  devpinoyLogger User logged in Successfully
+24 Jun 2024 14:07:57  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 14:07:59  devpinoyLogger Journey menu selected
+24 Jun 2024 14:08:10  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 14:08:15  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 14:08:29  devpinoyLogger Check-In done successfully
+24 Jun 2024 14:08:32  devpinoyLogger Order creation initiated
+24 Jun 2024 14:08:40  devpinoyLogger User provided product is searched and selected
+24 Jun 2024 14:09:04  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 14:32:15  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 14:32:28  devpinoyLogger User logged in Successfully
+24 Jun 2024 14:32:33  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 14:32:35  devpinoyLogger Journey menu selected
+24 Jun 2024 14:32:46  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 14:33:01  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 14:33:16  devpinoyLogger Check-In done successfully
+24 Jun 2024 14:33:20  devpinoyLogger Order creation initiated
+24 Jun 2024 14:33:27  devpinoyLogger User provided product is searched and selected
+24 Jun 2024 14:33:49  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 14:34:22  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 14:34:37  devpinoyLogger User logged in Successfully
+24 Jun 2024 14:34:42  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 14:34:44  devpinoyLogger Journey menu selected
+24 Jun 2024 14:41:46  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 14:42:00  devpinoyLogger User logged in Successfully
+24 Jun 2024 14:42:05  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 14:42:07  devpinoyLogger Journey menu selected
+24 Jun 2024 14:42:18  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 14:42:33  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 14:42:44  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 15:31:35  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 15:31:49  devpinoyLogger User logged in Successfully
+24 Jun 2024 15:31:54  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 15:31:56  devpinoyLogger Journey menu selected
+24 Jun 2024 15:32:07  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 15:32:22  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 15:35:33  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 15:35:47  devpinoyLogger User logged in Successfully
+24 Jun 2024 15:35:52  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 15:35:54  devpinoyLogger Journey menu selected
+24 Jun 2024 15:36:05  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 15:36:09  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:36:12  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:36:14  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:36:17  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:36:19  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:36:21  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:36:22  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 15:36:33  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 15:49:56  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 15:50:11  devpinoyLogger User logged in Successfully
+24 Jun 2024 15:50:19  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 15:50:21  devpinoyLogger Journey menu selected
+24 Jun 2024 15:50:32  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 15:50:43  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:50:45  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:50:47  devpinoyLogger Checked scroll statement
+24 Jun 2024 15:50:49  devpinoyLogger Checked not started journey
+24 Jun 2024 15:50:50  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 16:27:34  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 16:27:49  devpinoyLogger User logged in Successfully
+24 Jun 2024 16:27:54  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 16:27:56  devpinoyLogger Journey menu selected
+24 Jun 2024 16:28:08  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 16:28:25  devpinoyLogger Checked not started journey
+24 Jun 2024 16:28:26  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 16:28:46  devpinoyLogger Check-In done successfully
+24 Jun 2024 16:28:49  devpinoyLogger Order creation initiated
+24 Jun 2024 16:28:57  devpinoyLogger User provided product is searched and selected
+24 Jun 2024 16:29:09  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 16:30:53  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 16:31:06  devpinoyLogger User logged in Successfully
+24 Jun 2024 16:31:11  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 16:31:13  devpinoyLogger Journey menu selected
+24 Jun 2024 16:31:24  devpinoyLogger Selected the particular date provided by User
+24 Jun 2024 16:31:44  devpinoyLogger Checked not started journey
+24 Jun 2024 16:31:45  devpinoyLogger Journey started for the provided calendar date
+24 Jun 2024 16:32:04  devpinoyLogger Check-In done successfully
+24 Jun 2024 16:32:09  devpinoyLogger Order creation initiated
+24 Jun 2024 16:32:16  devpinoyLogger User provided product is searched and selected
+24 Jun 2024 16:32:31  devpinoyLogger Required product selected and added to the cart
+24 Jun 2024 16:32:38  devpinoyLogger User provided product is searched and selected
+24 Jun 2024 16:32:52  devpinoyLogger Required product selected and added to the cart
+24 Jun 2024 16:32:55  devpinoyLogger clicked on cart to view the cart items
+24 Jun 2024 16:33:15  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 18:26:43  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 18:26:57  devpinoyLogger User logged in Successfully
+24 Jun 2024 18:27:04  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 18:27:09  devpinoyLogger User logged out successfuly
+24 Jun 2024 18:27:21  devpinoyLogger User logged in Successfully
+24 Jun 2024 18:27:46  devpinoyLogger -------------------Test Ended-------------------
+24 Jun 2024 18:31:03  devpinoyLogger -------------------Test Started-------------------
+24 Jun 2024 18:31:18  devpinoyLogger User logged in Successfully
+24 Jun 2024 18:31:25  devpinoyLogger User Skipped the location pop-up in Dashboard screen
+24 Jun 2024 18:31:38  devpinoyLogger User logged out successfuly
+24 Jun 2024 18:31:39  devpinoyLogger -------------------Test Ended-------------------

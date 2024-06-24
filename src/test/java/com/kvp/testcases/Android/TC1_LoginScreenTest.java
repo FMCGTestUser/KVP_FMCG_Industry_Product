@@ -18,6 +18,7 @@ public class TC1_LoginScreenTest extends AndroidBaseTest{
 		signin.login(input.get("userName"),input.get("password"),input.get("domain"));
 		Thread.sleep(5000);
 		Page_DrawerMenu drawer = new Page_DrawerMenu(driver);
+		drawer.skipMapPopup();
 		drawer.logout();
 		preSetup("com.example.field_sales_app.MainActivity");  //adb shell dumpsys window windows---command(logout functionality not done yet)
 		Thread.sleep(2000);
